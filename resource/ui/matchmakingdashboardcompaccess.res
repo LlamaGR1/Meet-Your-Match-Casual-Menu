@@ -1,9 +1,9 @@
-"Resource/UI/MatchMakingDashboardCompAccess.res" // OK       
+"Resource/UI/MatchMakingDashboardCompAccess.res"
 {
 	"CompAccess"
 	{
 		"fieldName"		"CompAccess"
-		"xpos"			"0"
+		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"1001"
 		"wide"			"f0"
@@ -78,7 +78,6 @@
 		"brighttext"	"0"
 		"default"		"0"
 		"proportionaltoparent"	"1"
-//		"actionsignallevel" "2" this causes the game to crash
 		"Command"		"nav_close"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -109,10 +108,10 @@
 		}
 	}
 
-	"ExitButton" // fullscreen exit button
+	"FullScreenCloseButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ExitButton"
+		"fieldName"		"FullScreenCloseButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"

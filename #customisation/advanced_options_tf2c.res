@@ -1,4 +1,4 @@
-"Resource\UI\TFAdvancedOptionsDialog.res"
+"Resource\UI\TFAdvancedOptionsDialog.res" // tf2cの場合 テキストは白または黄褐色の明るい色になるはずです
 {
 	"TFAdvancedOptionsDialog"
 	{

@@ -2,10 +2,10 @@
 
 "Resource/UI/MatchMakingDashboardPlayList.res"
 {
-	"ExpandableList"								// I started this on 21/1/25, and today is 12/2/25. I was very excited to start working on this project again after four years. But now
-	{												// after countless roadblocks and things just straight-up not working, I have ZERO motivation to keep working or even playing TF2. I'm already tired of this
-		"fieldName"		"ExpandableList"			// but there's still stuff to fix or add. There are people waiting for this to finally be completed, but I simply can't keep working on it. What do I get out of this? Only stress and sadness.
-		"xpos"			"0"
+	"ExpandableList"
+	{
+		"fieldName"		"ExpandableList"
+		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"1001"
 		"wide"			"f0"
@@ -24,7 +24,7 @@
 		"tall"			"250"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-	} // tried once again but no luck, reverted back
+	}
 
 	"ExitButton" // replace with find a game button  --  original mym only way to exit was clicking find a game
 	{

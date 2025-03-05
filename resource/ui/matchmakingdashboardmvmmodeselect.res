@@ -5,7 +5,7 @@
 	"MVMModeSelect"
 	{
 		"fieldName"		"MVMModeSelect"
-		"xpos"			"f0"
+		"xpos"			"r0"
 		"ypos"			"f0"
 		"zpos"			"1002"
 		"wide"			"f0"
@@ -16,7 +16,7 @@
 
 	"LearnMoreButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"LearnMoreButton"
 		"xpos"			"c106"
 		"ypos"			"385"
@@ -33,10 +33,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"url https://www.teamfortress.com/mvm/"
-
-		"NavUp"			"PracticeButton"
-		"NavLeft"		"BackButton"
-		"NavRight"		"NextButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -246,11 +242,6 @@
 		"brighttext"	"0"
 		"Command"		"mannup"
 
-		"NavUp"			"Sheet"
-		"NavDown"		"BackButton"
-		"NavLeft"		"Sheet"
-		"NavRight"		"PracticeButton"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -300,11 +291,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"bootcamp"
-
-		"NavUp"			"Sheet"
-		"NavDown"		"LearnMoreButton"
-		"NavLeft"		"PlayNowButton"
-		"NavRight"		"StartPartyButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -415,18 +401,14 @@
 		"brighttext"	"0"
 		"Command"		"url https://steamcommunity.com/chat/" // temp fix
 
-		"NavUp"			"Sheet"
-		"NavDown"		"NextButton"
-		"NavLeft"		"PracticeButton"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
-	"ExitButton"
+	"BackButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ExitButton"
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton"
 		"xpos"			"c-305"
 		"ypos"			"437"
 		"zpos"			"100"

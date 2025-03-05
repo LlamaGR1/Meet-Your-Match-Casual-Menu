@@ -5,7 +5,7 @@
 	"CompStats"
 	{
 		"fieldName"		"CompStats"
-		"xpos"			"f0"
+		"xpos"			"r0"
 		"ypos"			"f0"
 		"zpos"			"1002"
 		"wide"			"f0"
@@ -228,7 +228,7 @@
 
 	"QueueButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
 		"xpos"			"c120"
 		"ypos"			"437"
@@ -258,17 +258,42 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ToolTipButtonHack"
-		"xpos"			"c120"
-		"ypos"			"437"
+		"xpos"			"cs-0.5"
+		"ypos"			"8"
 		"zpos"			"106"
-		"wide"			"180"
-		"tall"			"25"
+		"wide"			"160"
+		"tall"			"35"
 		"visible"		"0"
 		"enabled"		"1"
-		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"
-		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"
+
+		"SearchingServersBorder"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"SearchingServersBorder"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"106"
+			"wide"			"160"
+			"tall"			"35"
+			"bgcolor_override"	"0 0 0 200"
+			"border"		"QuickplayBorder"
+
+			"SearchingServersLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"SearchingServersLabel"
+				"font"			"HudFontSmallestBold"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"107"
+				"wide"			"160"
+				"tall"			"35"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#TF_MM_WaitDialog_Title_ShowServers"
+				"centerwrap"	"1"
+			}
+		}
 	}
 
 	"PlayWithFriendsExplanation"
@@ -355,18 +380,14 @@
 		"brighttext"	"0"
 		"Command"		"url https://steamcommunity.com/chat/" // temp fix
 
-		"NavUp"			"Sheet"
-		"NavDown"		"NextButton"
-		"NavLeft"		"PracticeButton"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
-	"ExitButton"
+	"BackButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ExitButton"
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton"
 		"xpos"			"c-305"
 		"ypos"			"437"
 		"zpos"			"105"

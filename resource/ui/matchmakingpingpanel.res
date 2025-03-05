@@ -1,9 +1,9 @@
-"Resource/UI/MatchMakingPingPanel.res"	//  good recreation
-{										// now that i think about it, does anyone even use the matchmaking settings? or was this a waste of time?
+"Resource/UI/MatchMakingPingPanel.res"
+{
 	"PingPanel"
 	{
 		"fieldName"		"PingPanel"
-		"xpos"			"0"
+		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"1001"
 		"wide"			"f0"
@@ -101,6 +101,7 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_IgnoreInvites"
+		"textinsetx"	"6"
 		"textAlignment"	"west"
 		"font"			"HudFontSmallBold"
 		"smallcheckimage"	"0"
@@ -250,7 +251,7 @@
 				"xpos"			"rs1-1"
 				"ypos"			"0"
 				"tall"			"f0"
-				"wide"			"5" // This gets slammed from client schme.  GG.
+				"wide"			"5"
 				"zpos"			"1000"
 				"nobuttons"		"1"
 				"proportionaltoparent"	"1"
@@ -308,10 +309,10 @@
 		}
 	}
 
-	"ExitButton" // dashboard dimmer no work, no idea why, and dont care
+	"FullScreenCloseButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ExitButton"
+		"fieldName"		"FullScreenCloseButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"

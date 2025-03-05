@@ -46,6 +46,12 @@
 		"command"		"engine toggle cl_mainmenu_safemode"
 	}
 
+	"VRModeBGPanel"
+	{
+		"command"		"0"
+		"OnlyWhenVREnabled"	"1"
+	}
+
 	"VRModeButton"
 	{
 		"label"			"#MMenu_VRMode_Activate"
@@ -68,8 +74,6 @@
 		"subimage"		"glyph_items"
 	}
 
-	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
 		"label"			""

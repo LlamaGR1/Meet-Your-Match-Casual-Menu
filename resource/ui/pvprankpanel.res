@@ -190,6 +190,11 @@
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"			"67" // p0.13	p0.14
+			}
 		}
 
 		"StatsContainer"

@@ -1,3 +1,5 @@
+#base "../../#customisation/#extras/enabled/character_info_and_setup.res"
+
 "Resource/UI/CharInfoPanel.res"
 {
 	"character_info"

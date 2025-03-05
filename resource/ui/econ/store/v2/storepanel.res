@@ -1,3 +1,5 @@
+#base "../../../../../#customisation/#extras/enabled/mann_co_catalog.res"
+
 "Resource/UI/StorePanel.res"
 {
 	"store_panel"

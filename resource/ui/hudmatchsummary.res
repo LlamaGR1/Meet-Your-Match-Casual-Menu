@@ -44,24 +44,6 @@
 		}
 	}
 
-	"SafeToLeaveLabel"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"SafeToLeaveLabel"
-		"xpos"			"cs-0.5"
-		"ypos"			"455"
-		"zpos"			"9001"
-		"wide"			"150"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"font"			"HudFontSmallest"
-		"fgcolor_override"	"TanLight"
-		"textAlignment"	"center"
-		"labelText"		"#TF_Matchmaking_SafeToLeave"
-		"proportionaltoparent"	"1"
-	}
-
 	"RankPanel"
 	{
 		"ControlName"	"CMiniPvPRankPanel"
@@ -93,7 +75,6 @@
 		"fieldName"		"RankModelPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"r1"
-
 		"zpos"			"9002"
 		"wide"			"2000"
 		"tall"			"2000"
@@ -199,7 +180,7 @@
 				"enabled"		"1"
 			}
 
-			"StatsAndMedalsShadow"
+ 			"StatsAndMedalsShadow"
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"StatsAndMedalsShadow"
@@ -233,7 +214,7 @@
 
 			"BlueTeamPanel"
 			{
-				"ControlName"		"EditablePanel"
+	 			"ControlName"		"EditablePanel"
 				"fieldName"		"BlueTeamPanel"
 				"xpos"			"-320"
 				"ypos"			"0"
@@ -402,7 +383,7 @@
 					"visible"		"0"
 					"enabled"		"1"
 					"image"			""
-					"scaleImage"	"1"
+					"scaleImage"	"1"	
 					"color_outline"	"52 48 45 255"
 
 					if_large
@@ -503,7 +484,7 @@
 			}
 			"RedTeamPanel"
 			{
-				"ControlName"		"EditablePanel"
+	 			"ControlName"		"EditablePanel"
 				"fieldName"		"RedTeamPanel"
 				"xpos"			"320"
 				"ypos"			"0"
@@ -532,7 +513,7 @@
 					{
 						"ypos"			"39"
 					}
-				}
+				}						
 				"RedTeamScore"
 				{
 					"ControlName"		"CExLabel"
@@ -671,7 +652,7 @@
 					"visible"		"0"
 					"enabled"		"1"
 					"image"			""
-					"scaleImage"	"1"
+					"scaleImage"	"1"	
 					"color_outline"	"52 48 45 255"
 
 					if_large
@@ -714,7 +695,7 @@
 						"ypos"			"77"
 						"tall"			"340"
 					}
-
+			
 					"RedPlayerList"
 					{
 						"ControlName"	"TFSectionedListPanel"
@@ -772,7 +753,7 @@
 			}
 			"BlueMedals"
 			{
-				"ControlName"		"EditablePanel"
+	 			"ControlName"		"EditablePanel"
 				"fieldName"		"BlueMedals"
 				"xpos"			"c-250"
 				"ypos"			"-20"
@@ -883,7 +864,7 @@
 			}
 			"RedMedals"
 			{
-				"ControlName"		"EditablePanel"
+	 			"ControlName"		"EditablePanel"
 				"fieldName"		"RedMedals"
 				"xpos"			"c100"
 				"ypos"			"-20"

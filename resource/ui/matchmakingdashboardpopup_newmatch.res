@@ -1,6 +1,6 @@
 "Resource/UI/MatchMakingDashboardPopup_NewMatch.res"
 {
-	"NewMatchFound"
+	"NewMatchFound" // この野郎の身長は変えられない!!!!!???????
 	{
 		"ControlName"	"CExpandablePanel"
 		"fieldName"		"NewMatchFound"

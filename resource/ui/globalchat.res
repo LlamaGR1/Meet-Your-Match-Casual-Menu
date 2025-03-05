@@ -1,18 +1,19 @@
-"Resource/UI/GlobalChat.res"	// broken on 4:3 and 16:10
+"Resource/UI/GlobalChat.res"
 {
 	"partychat"
 	{
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"142"
-		"ypos"					"55"
+		"xpos"					"c-285"
+		"ypos"					"10"
 		"zpos"					"1069"
 		"wide"					"251"
-		"tall"					"68"
+		"tall"					"65"
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"1"
+		"border"		"QuickplayBorder"
 
 		"log_font_small"			"HudFontSmallest"
 		"log_font_medium"			"HudFontSmallest"
@@ -24,7 +25,7 @@
 		"chat_color_party_event"	"Orange"
 
 		"collapsed_height"		"0"
-		"expanded_height"		"68"
+		"expanded_height"		"65"
 		"resize_time"	"0.3"
 		"invalidate_parent_on_resize"	"0"
 	}
@@ -33,7 +34,7 @@
 	{
 		"fieldName"		"chatlog"
 		"xpos"			"cs-0.5"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f20"
@@ -43,9 +44,6 @@
 		"font"			"HudFontSmallest"
 
 		"bgcolor_override"	"0 0 0 50"
-
-		"pinCorner"		"2"
-		"autoResize"	"1"
 
 		"ScrollBar"
 		{
@@ -60,7 +58,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"73 73 73 255"
 			}
 
 			"UpButton"
@@ -81,11 +79,12 @@
 
 	"chatentry"
 	{
+		"ControlName"	"Panel"
 		"fieldName"		"chatentry"
-		"xpos"			"142"
-		"ypos"			"333"
+		"xpos"			"143"
+		"ypos"			"rs1+280"
 		"zpos"			"1"
-		"wide"			"251"
+		"wide"			"249"
 		"tall"			"13"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -94,6 +93,27 @@
 		"font"			"HudFontSmallest"
 		"alpha"			"0"
 		"mouseinputenabled"	"0"
+
+		"pinCorner"		"2"
+	}
+
+	"EntryShadow"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"EntryShadow"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1"
+		"zpos"			"3"
+		"wide"			"f0"
+		"tall"			"15"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"0 0 0 0"
+		"RoundedCorners"	"0"
+		"border"		"QuickplayBorder"
+
+		"keyboardinputenabled"	"0"
+		"mouseinputenabled"		"0"
 
 		"pinCorner"		"2"
 	}

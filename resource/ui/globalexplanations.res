@@ -1063,12 +1063,12 @@
 		"border"		"MainMenuHighlightBorder"
 
 		"force_close"	"0"
-		"end_x"			"c+25" // box x
-		"end_y"			"120" // box y
+		"end_x"			"c+25"
+		"end_y"			"120"
 		"end_wide"		"250"
 		"end_tall"		"240"
-		"callout_inparents_x"	"c-60" // end of arrow x 
-		"callout_inparents_y"	"c-108" // end of arrow y
+		"callout_inparents_x"	"c-60"
+		"callout_inparents_y"	"c-108"
 
 		"res_file_controls"	"1"
 		"explanation_title"	"#TF_FindMatchTip_Title"

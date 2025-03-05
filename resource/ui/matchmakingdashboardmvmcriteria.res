@@ -5,7 +5,7 @@
 	"MVMCriteria"
 	{
 		"fieldName"		"MVMCriteria"
-		"xpos"			"f0"
+		"xpos"			"r0"
 		"ypos"			"f0"
 		"zpos"			"1003"
 		"wide"			"f0"
@@ -167,7 +167,7 @@
 
 	"MannUpQueueButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"MannUpQueueButton"
 		"xpos"			"c120"
 		"ypos"			"437"
@@ -212,7 +212,7 @@
 
 	"BootCampQueueButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"BootCampQueueButton"
 		"xpos"			"c120"
 		"ypos"			"437"
@@ -240,7 +240,7 @@
 
 	"NextButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
 		"xpos"			"c120"
 		"ypos"			"437"
@@ -268,13 +268,13 @@
 
 	"JoinLateCheckButton"
 	{
-		"ControlName"		"CheckButton"
+		"ControlName"	"CheckButton"
 		"fieldName"		"JoinLateCheckButton"
-		"xpos"		"c+100"
-		"ypos"		"376"
-		"zpos"		"50"
-		"wide"		"200"
-		"tall"		"20"
+		"xpos"			"c+100"
+		"ypos"			"376"
+		"zpos"			"50"
+		"wide"			"200"
+		"tall"			"20"
 		"font"			"HudFontSmallest"
 		"labelText"		""
 		"proportionaltoparent"	"1"
@@ -282,13 +282,13 @@
 
 	"JoinLateLabel"
 	{
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"JoinLateLabel"
-		"xpos"		"c+125"
-		"ypos"		"376"
-		"zpos"		"50"
-		"wide"		"200"
-		"tall"		"20"
+		"xpos"			"c+125"
+		"ypos"			"376"
+		"zpos"			"50"
+		"wide"			"200"
+		"tall"			"20"
 		"font"			"HudFontSmall"
 		"labelText"		"#TF_Matchmaking_JoinInProgress"
 		"proportionaltoparent"	"1"
@@ -375,18 +375,14 @@
 		"brighttext"	"0"
 		"Command"		"url https://steamcommunity.com/chat/" // temp fix
 
-		"NavUp"			"Sheet"
-		"NavDown"		"NextButton"
-		"NavLeft"		"PracticeButton"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
-	"ExitButton"
+	"BackButton1"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ExitButton"
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton1"
 		"xpos"			"c-305"
 		"ypos"			"437"
 		"zpos"			"105"

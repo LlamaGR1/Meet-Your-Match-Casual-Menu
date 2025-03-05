@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TopBar"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"
@@ -48,7 +48,7 @@
 				"ControlName"	"Button"
 				"fieldName"		"QueueLogoButton"
 				"xpos"			"0"
-				"ypos"			"1"
+				"ypos"			"0"
 				"zpos"			"10"
 				"wide"			"o1"
 				"tall"			"f0"
@@ -77,7 +77,7 @@
 				"ControlName"	"CTFLogoPanel"
 				"fieldname"		"CTFLogoPanel"
 				"xpos"			"0"
-				"ypos"			"1"
+				"ypos"			"0"
 				"zpos"			"5"
 				"wide"			"o1"
 				"tall"			"f0"
@@ -95,7 +95,7 @@
 				"ControlName"	"CAutoFittingLabel"
 				"fieldName"		"QueueText"
 				"xpos"			"33"
-				"ypos"			"1"
+				"ypos"			"0"
 				"wide"			"f55"
 				"zpos"			"100"
 				"tall"			"f0"
@@ -157,7 +157,7 @@
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
 
-				"image_drawcolor"	"117 107 94 255"
+				"image_drawcolor"	"235 226 202 255"
 				"image_armedcolor"	"200 80 60 255"
 				"SubImage"
 				{
@@ -207,7 +207,7 @@
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
 
-				"image_drawcolor"	"117 107 94 255"
+				"image_drawcolor"	"235 226 202 255"
 				"image_armedcolor"	"200 80 60 255"
 				"SubImage"
 				{

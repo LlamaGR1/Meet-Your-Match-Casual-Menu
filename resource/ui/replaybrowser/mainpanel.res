@@ -1,4 +1,6 @@
-"Resource/UI/replaybrowser/mainpanel.res" // why are the replay files in hl2
+#base "../../../#customisation/#extras/enabled/replays_and_movies.res"
+
+"Resource/UI/replaybrowser/mainpanel.res"
 {
 	"ReplayBrowser"
 	{
