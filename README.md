@@ -68,5 +68,5 @@ Issues:
 - MvM:
 - Main Menu: Entry Chat from Party Chat is off-set, "Create Server" is off-set
 
-## Latest public update: v1.2 - 25/2/21
-## Latest beta update: v1.2 - 25/3/6
+### Latest public update: v1.2 - 25/2/21
+### Latest beta update: v1.2 - 25/3/6
