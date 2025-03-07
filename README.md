@@ -1,36 +1,56 @@
-## Meet Your Match Casual Menu
+# Meet Your Match Casual Menu
+<img src="[image-url](https://steamcdn-a.akamaihd.net/steam/news/22765/meetyourmatch.png)" alt="Beat Your Meat" width="300" height="200">
 
 ## Refer to the "#customisation" folder for customisation options
 
-## [GameBanana link](https://gamebanana.com/wips/58201)
+### [GameBanana link](https://gamebanana.com/wips/58201)
 
-## Latest update: v1.3 - 5/3/25
+# Changelog for v1.0
+- Updated the Matchmaking Settings to match Meet Your Match
+- Updated the Competitive Access Info to match Meet Your Match
+- Fixed Help/Explanation Tips for Casual & Competitive
+- "Create Party" button opens your Steam friends on your browser
+- Attempt to disable the sliding animations for the menus
+- Under the hood changes
+- Other bug fixes
+> Added customisation
+- Pre-Tough Break Scoreboard
+- TF2 Classic Advanced Options
+- Meet Your Match Main Menu without Party
 
+# Changelog for v1.1 (undocumented)
+- "View Promotional Codes" is no longer visible if you don't have any to claim
 
-
+# Changelog for v1.2
+- Added a "Matchmaking Settings" button next to the "Play" text when "main_menu_no_party.res" is enabled
+- Improved the Playlist look & close functionality
+- Better character move control in Class Loadout
+- A/D navigation to move pages in the Backpack
+- Fixed some buttons & textures being off-set in the Loadout
+- "Cancel" & "OK" buttons are now centered in the Vanilla Advanced Options
+- Attempt to fix "Friends" & "Messages" buttons being off-set in 16:9
+- Fixed floating "CExImageButton" text on some menus
+- Fixed all Help/Explanation Tips
+- Fixed grey outlines when Playlist is active
+> Added customisation
+- Shows Passive Attributes & able to switch to team RED & BLU
 
 # Issues:
 
-= Casual =
-
-Issues:
+### Casual
 - Replace "Create Party" with another functionality
 - "Settings" button doesn't do anything
-———————————————————————————————————————————
-= Competitive =
 
+### Competitive
 Issues:
 - Replace "Create Party" with another functionality
-———————————————————————————————————————————
-= MvM =
 
+### MvM
 Issues:
 - Replace "Create Party" with another functionality
 - "MvM Boot Camp" missing the rest of top tab title
-———————————————————————————————————————————
-= General =
 
-Issues:
+### General
 - "+"/"Create Server" doesn't have a tooltip
 - "Create Server" on MatchMakingPlaylist
 - Disable animations for MatchMakingPlaylist
@@ -41,12 +61,12 @@ Issues:
 - Make the Party Chat close automatically
 - Player's Casual & Competitive Level is off-set fixed at the end of the match
 - Item Test menu overlaps with "Find A Game", "Friends" & "Messages"
-———————————————————————————————————————————
-= 4:3 & 16:10 aspect ratio support =
 
-Issues:
+### 4:3 & 16:10 aspect ratio support
 - Casual: Rank/Medal/Badge is not centered (TF2 spaghetti code)
 - Competitive: Rank/Medal/Badge is not centered (TF2 spaghetti code)
 - MvM:
 - Main Menu: Entry Chat from Party Chat is off-set, "Create Server" is off-set
-———————————————————————————————————————————
+
+## Latest public update: v1.2 - 25/2/21
+## Latest beta update: v1.2 - 25/3/6
