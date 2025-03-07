@@ -1,5 +1,5 @@
 # Meet Your Match Casual Menu
-<img src="[image-url](https://steamcdn-a.akamaihd.net/steam/news/22765/meetyourmatch.png)" alt="Beat Your Meat" width="300" height="200">
+<img src="https://steamcdn-a.akamaihd.net/steam/news/22765/meetyourmatch.png" alt="Beat Your Meat" width="273" height="251">
 
 ## Refer to the "#customisation" folder for customisation options
 
