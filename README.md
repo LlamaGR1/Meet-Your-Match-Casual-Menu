@@ -42,7 +42,9 @@
 > Added customisation
 - Shows Passive Attributes & able to switch to team RED & BLU
 
-# Issues:
+---
+
+# Issues
 
 ### Casual
 - Replace "Create Party" with another functionality
