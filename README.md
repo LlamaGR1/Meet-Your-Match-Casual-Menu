@@ -10,9 +10,12 @@
 ### Links
 - [GameBanana page](https://gamebanana.com/wips/58201)
 
----
+# Changelogs
 
-# Changelog for v1.0
+<details>
+<summary>Click to expand</summary>
+
+### v1.0
 - Updated the Matchmaking Settings to match Meet Your Match
 - Updated the Competitive Access Info to match Meet Your Match
 - Fixed Help/Explanation Tips for Casual & Competitive
@@ -20,15 +23,15 @@
 - Attempt to disable the sliding animations for the menus
 - Under the hood changes
 - Other bug fixes
-> Added customisation
-- Pre-Tough Break Scoreboard
-- TF2 Classic Advanced Options
-- Meet Your Match Main Menu without Party
+- Added customisation
+  - Pre-Tough Break Scoreboard
+  - TF2 Classic Advanced Options
+  - Meet Your Match Main Menu without Party
 
-# Changelog for v1.1 (undocumented)
+### v1.1
 - "View Promotional Codes" is no longer visible if you don't have any to claim
 
-# Changelog for v1.2
+### v1.2 (LATEST)
 - Added a "Matchmaking Settings" button next to the "Play" text when "main_menu_no_party.res" is enabled
 - Improved the Playlist look & close functionality
 - Better character move control in Class Loadout
@@ -39,21 +42,24 @@
 - Fixed floating "CExImageButton" text on some menus
 - Fixed all Help/Explanation Tips
 - Fixed grey outlines when Playlist is active
-> Added customisation
-- Shows Passive Attributes & able to switch to team RED & BLU
+- Added customisation
+  - Shows Passive Attributes & able to switch to team RED & BLU
 
----
+</details>
 
 # Issues
 
-### Casual
+<details>
+<summary>Click to expand</summary>
+
+### Casual Menu
 - Replace "Create Party" with another functionality
 - "Settings" button doesn't do anything
 
-### Competitive
+### Competitive Menu
 - Replace "Create Party" with another functionality
 
-### MvM
+### MvM Menu
 - Replace "Create Party" with another functionality
 - "MvM Boot Camp" missing the rest of top tab title
 
@@ -73,3 +79,7 @@
 - Casual: Rank/Medal/Badge is not centered (TF2 spaghetti code)
 - Competitive: Rank/Medal/Badge is not centered (TF2 spaghetti code)
 - Main Menu: Entry Chat from Party Chat is off-set, "Create Server" is off-set
+
+</details>
+
+### [License](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/blob/8d2b08ba6cd6b734af86e75a9ebd37b360ae82f4/LICENSE.md)
