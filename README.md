@@ -1,9 +1,16 @@
 # Meet Your Match Casual Menu
 <img src="https://steamcdn-a.akamaihd.net/steam/news/22765/meetyourmatch.png" alt="Beat Your Meat" width="273" height="251">
 
-## Refer to the "#customisation" folder for customisation options
+> [!NOTE]
+> Refer to the "#customisation" folder for customisation options
 
-### [GameBanana link](https://gamebanana.com/wips/58201)
+> [!CAUTION]
+> Report issues here: [GameBanana](https://gamebanana.com/wips/issues/58201) / [GitHub](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/issues)
+
+### Links
+- [GameBanana page](https://gamebanana.com/wips/58201)
+
+---
 
 # Changelog for v1.0
 - Updated the Matchmaking Settings to match Meet Your Match
@@ -42,11 +49,9 @@
 - "Settings" button doesn't do anything
 
 ### Competitive
-Issues:
 - Replace "Create Party" with another functionality
 
 ### MvM
-Issues:
 - Replace "Create Party" with another functionality
 - "MvM Boot Camp" missing the rest of top tab title
 
@@ -65,8 +70,4 @@ Issues:
 ### 4:3 & 16:10 aspect ratio support
 - Casual: Rank/Medal/Badge is not centered (TF2 spaghetti code)
 - Competitive: Rank/Medal/Badge is not centered (TF2 spaghetti code)
-- MvM:
 - Main Menu: Entry Chat from Party Chat is off-set, "Create Server" is off-set
-
-> Latest public update: v1.2 - 25/2/21
-> Latest beta update: v1.2 - 25/3/6
