@@ -1,21 +1,21 @@
-# Meet Your Match Casual Menu
 ![Meet Your Match Casual Menu Logo](https://github.com/user-attachments/assets/85fd9c16-0c09-4c31-a64e-66dbf46bef02)
 
 > [!NOTE]
-> Refer to the "#customisation" folder for customisation options
+> Refer to the "#customisation" folder for available options
 
 > [!CAUTION]
-> Report issues here: [GameBanana](https://gamebanana.com/wips/issues/58201) / [GitHub](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/issues)
+> This is temporary "on hold" and not being worked on
 
-### Links
-- [GameBanana page](https://gamebanana.com/wips/58201)
+# LINKS
+- [GameBanana](https://gamebanana.com/wips/58201)
+- [TF2 HUDs](https://tf2huds.dev/hud/Meet-Your-Match-Casual-Menu)
 
-# Changelogs
+# CHANGELOGS
 
 <details>
 <summary>Click to expand</summary>
 
-### v1.0
+  ### v1.0
 - Updated the Matchmaking Settings to match Meet Your Match
 - Updated the Competitive Access Info to match Meet Your Match
 - Fixed Help/Explanation Tips for Casual & Competitive
@@ -27,10 +27,6 @@
   - Pre-Tough Break Scoreboard
   - TF2 Classic Advanced Options
   - Meet Your Match Main Menu without Party
-
-### v1.1!
-
-- "View Promotional Codes" is no longer visible if you don't have any to claim
 
 ### v1.2 (LATEST)
 - Added a "Matchmaking Settings" button next to the "Play" text when "main_menu_no_party.res" is enabled
@@ -48,39 +44,36 @@
 
 </details>
 
-# Issues
-
+# ISSUES
 <details>
 <summary>Click to expand</summary>
 
-### Casual Menu
-- Replace "Create Party" with another functionality
+### CASUAL
 - "Settings" button doesn't do anything
 
-### Competitive Menu
-- Replace "Create Party" with another functionality
-
-### MvM Menu
-- Replace "Create Party" with another functionality
-- "MvM Boot Camp" missing the rest of top tab title
-
-### General
-- "+"/"Create Server" doesn't have a tooltip
-- "Create Server" on MatchMakingPlaylist
+### GENERAL
+- Scrollable "MatchMakingPlaylist" with "Create Server" being the default look instead of a "+" button
 - Disable animations for MatchMakingPlaylist
 - The backgrounds for the main menu are character images
 - "Disconnect" button at the end of match
-- Buttons are more rounded compared to "Meet Your Match"
-- "Save This Moment" when dead from enemy is off-set
-- Make the Party Chat close automatically
-- Player's Casual & Competitive Level is off-set fixed at the end of the match
-- Item Test menu overlaps with "Find A Game", "Friends" & "Messages"
 
-### 4:3 & 16:10 aspect ratio support
-- Casual: Rank/Medal/Badge is not centered (TF2 spaghetti code)
-- Competitive: Rank/Medal/Badge is not centered (TF2 spaghetti code)
+### 4:3 & 16:10 ASPECT RATIO
+- Casual & Competitive: Rank/Medal/Badge is not centered (TF2 spaghetti code)
 - Main Menu: Entry Chat from Party Chat is off-set, "Create Server" is off-set
 
 </details>
 
-### [License](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/blob/8d2b08ba6cd6b734af86e75a9ebd37b360ae82f4/LICENSE.md)
+# LICENSE
+<details>
+<summary>Click to expand</summary>
+<br>
+
+Meet Your Match Casual Menu
+
+Copyright (c) 2025 llamaras, llamaclapped, sparkless, LlamaGR1
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License (CC BY-NC-ND 4.0)
+
+This WiP/MOD and its components may not be redistributed, modified and distributed on GameBanana or any other site/platform.
+
+</details>
