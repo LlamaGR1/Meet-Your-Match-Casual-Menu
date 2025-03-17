@@ -1,5 +1,6 @@
 # Meet Your Match Casual Menu
 <img src="https://steamcdn-a.akamaihd.net/steam/news/22765/meetyourmatch.png" alt="Beat Your Meat" width="273" height="251">
+![Meet Your Match Casual Menu Logo](https://github.com/user-attachments/assets/8e057d76-e48c-4d70-9d1d-3ddbf6e06b79)
 
 > [!NOTE]
 > Refer to the "#customisation" folder for customisation options
@@ -28,7 +29,8 @@
   - TF2 Classic Advanced Options
   - Meet Your Match Main Menu without Party
 
-### v1.1
+### v1.1!
+
 - "View Promotional Codes" is no longer visible if you don't have any to claim
 
 ### v1.2 (LATEST)
