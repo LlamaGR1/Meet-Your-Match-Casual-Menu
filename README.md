@@ -1,6 +1,5 @@
 # Meet Your Match Casual Menu
-<img src="https://steamcdn-a.akamaihd.net/steam/news/22765/meetyourmatch.png" alt="Beat Your Meat" width="273" height="251">
-![Meet Your Match Casual Menu Logo](https://github.com/user-attachments/assets/8e057d76-e48c-4d70-9d1d-3ddbf6e06b79)
+![Meet Your Match Casual Menu Logo](https://github.com/user-attachments/assets/3f368ddd-5fae-4cc1-afea-9bf6483eb8d6)
 
 > [!NOTE]
 > Refer to the "#customisation" folder for customisation options
