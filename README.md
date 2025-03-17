@@ -1,5 +1,5 @@
 # Meet Your Match Casual Menu
-![Meet Your Match Casual Menu Logo](https://github.com/user-attachments/assets/3f368ddd-5fae-4cc1-afea-9bf6483eb8d6)
+![Meet Your Match Casual Menu Logo](https://github.com/user-attachments/assets/85fd9c16-0c09-4c31-a64e-66dbf46bef02)
 
 > [!NOTE]
 > Refer to the "#customisation" folder for customisation options
