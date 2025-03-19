@@ -10,12 +10,28 @@
 - [GameBanana](https://gamebanana.com/wips/58201)
 - [TF2 HUDs](https://tf2huds.dev/hud/Meet-Your-Match-Casual-Menu)
 
+# EXTRAS
+
+<details>
+<summary>Click to expand</summary>
+<br>
+
+- Vote Map buttons incase the in-game window breaks and no-ones unable to vote
+- DemoUI
+- Console
+- Hud Reload
+- Sound Reload
+- Fix Invisible Players
+- Clear Decals
+
+</details>
+
 # CHANGELOGS
 
 <details>
 <summary>Click to expand</summary>
 
-  ### v1.0
+### v1.0
 - Updated the Matchmaking Settings to match Meet Your Match
 - Updated the Competitive Access Info to match Meet Your Match
 - Fixed Help/Explanation Tips for Casual & Competitive
