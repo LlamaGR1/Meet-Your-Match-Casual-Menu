@@ -16,13 +16,13 @@
 <summary>Click to expand</summary>
 <br>
 
-- Vote Map buttons incase the in-game window breaks and no-ones unable to vote
-- DemoUI
-- Console
-- Hud Reload
-- Sound Reload
-- Fix Invisible Players
-- Clear Decals
+- **Vote Map 1 - 2 - 3;** vote map from left to right
+- **DemoUI;** toggles the demo playback
+- **Console;** toggles the developer console
+- **HUD Reload;** fixes hud glitches
+- **Sound Reload;** fixes audio glitches
+- **Fix Invis Players;** fixes invisible players
+- **Clear Decals;** clears sprays, bullet holes & blood
 
 </details>
 
