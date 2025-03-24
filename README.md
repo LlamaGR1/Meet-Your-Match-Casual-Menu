@@ -1,18 +1,14 @@
-[![[Meet Your Match Casual Menu Logo]([https://github.com/user-attachments/assets/85fd9c16-0c09-4c31-a64e-66dbf46bef02]
+![Meet Your Match Casual Menu Logo New](https://github.com/user-attachments/assets/9521c954-1ba6-4768-9fe5-fcaa9c73a64a)
 <p align="center">
-  [GameBanana](https://gamebanana.com/wips/58201) - [TF2 HUDs](https://tf2huds.dev/hud/Meet-Your-Match-Casual-Menu)
+  <a href="https://gamebanana.com/wips/58201">gaymeBanana</a> - <a href="https://tf2huds.dev/hud/Meet-Your-Match-Casual-Menu">tf2 huds</a>
 </p>
-![Meet Your Match Casual Menu Logo](https://github.com/user-attachments/assets/ad4dc2ab-bb95-4396-bfc2-5896fd5b4585)
 
 > [!NOTE]
-> Refer to the "#customisation" folder for available options
+> Refer to the "#customisation" folder for available options<br>
+> [beat your meat casual menu wiki](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/wiki)
 
 > [!CAUTION]
 > This is temporary "On Hold" and not being worked on
-
-# LINKS
-- [GameBanana](https://gamebanana.com/wips/58201)
-- [TF2 HUDs](https://tf2huds.dev/hud/Meet-Your-Match-Casual-Menu)
 
 # CHANGELOGS
 <details>
