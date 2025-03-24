@@ -47,7 +47,7 @@
 <summary>Click to expand</summary>
 
 ### CASUAL
-- "Settings" button doesn't do anything
+- "Settings" button doesn't do anything (fixed in future update)
 
 ### GENERAL
 - Scrollable "MatchMakingPlaylist" with "Create Server" being the default look instead of a "+" button
@@ -57,7 +57,7 @@
 
 ### 4:3 & 16:10 ASPECT RATIO
 - Casual & Competitive: Rank/Medal/Badge is not centered (TF2 spaghetti code)
-- Main Menu: Entry Chat from Party Chat is off-set, "Create Server" is off-set
+- Main Menu: Entry Chat from Party Chat is off-set, --> "Create Server" is off-set <--> (fixed in future update)
 </details>
 
 > [LICENSE](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/tree/main?tab=License-1-ov-file#readme)
