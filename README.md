@@ -4,30 +4,13 @@
 > Refer to the "#customisation" folder for available options
 
 > [!CAUTION]
-> This is temporary "on hold" and not being worked on
+> This is temporary "On Hold" and not being worked on
 
 # LINKS
 - [GameBanana](https://gamebanana.com/wips/58201)
 - [TF2 HUDs](https://tf2huds.dev/hud/Meet-Your-Match-Casual-Menu)
 
-# EXTRAS
-
-<details>
-<summary>Click to expand</summary>
-<br>
-
-- **Vote Map 1 - 2 - 3;** vote map from left to right
-- **DemoUI;** toggles the demo playback
-- **Console;** toggles the developer console
-- **HUD Reload;** fixes hud glitches
-- **Sound Reload;** fixes audio glitches
-- **Fix Invis Players;** fixes invisible players
-- **Clear Decals;** clears sprays, bullet holes & blood
-
-</details>
-
 # CHANGELOGS
-
 <details>
 <summary>Click to expand</summary>
 
