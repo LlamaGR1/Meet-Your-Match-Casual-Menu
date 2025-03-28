@@ -1,18 +1,19 @@
 ![Meet Your Match Casual Menu Logo New](https://github.com/user-attachments/assets/9521c954-1ba6-4768-9fe5-fcaa9c73a64a)
 <p align="center">
-  <a href="https://gamebanana.com/wips/58201">gaymeBanana</a> - <a href="https://tf2huds.dev/hud/Meet-Your-Match-Casual-Menu">tf2 huds</a>
+  <a href="https://gamebanana.com/wips/58201">GameBanana</a> • <a href="https://tf2huds.dev/hud/Meet-Your-Match-Casual-Menu">TF2 HUDs</a>
 </p>
 
-> [!NOTE]
-> Refer to the "#customisation" folder for available options<br>
-> [beat your meat casual menu wiki](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/wiki)
+---
 
-> [!CAUTION]
-> This is temporary "On Hold" and not being worked on
+> [!NOTE]
+> See "#customisation" folder for options
+
+> [!IMPORTANT]
+> [Wiki / Guide](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/wiki)
 
 # CHANGELOGS
 <details>
-<summary>Click to expand</summary>
+<summary>Expand</summary>
 
 ### v1.0
 - Updated the Matchmaking Settings to match Meet Your Match
@@ -44,20 +45,17 @@
 
 # ISSUES
 <details>
-<summary>Click to expand</summary>
+<summary>Expand</summary>
+<br>
 
-### CASUAL
-- "Settings" button doesn't do anything (fixed in future update)
-
-### GENERAL
-- Scrollable "MatchMakingPlaylist" with "Create Server" being the default look instead of a "+" button
-- Disable animations for MatchMakingPlaylist
-- The backgrounds for the main menu are character images
-- "Disconnect" button at the end of match
-
-### 4:3 & 16:10 ASPECT RATIO
-- Casual & Competitive: Rank/Medal/Badge is not centered (TF2 spaghetti code)
-- Main Menu: Entry Chat from Party Chat is off-set, --> "Create Server" is off-set <--> (fixed in future update)
+- [X] (Casual) "Settings" button doesn't do anything
+- [ ] (4:3 & 16:10 Aspect Ratio) "Rank/Medal/Badge" is not centered (TF2 spaghetti code)
+- [X] (4:3 & 16:10 Aspect Ratio) "Entry Chat" from "Party Chat" is off-set
+- [X] (4:3 & 16:10 Aspect Ratio) "Create Server" is off-set
+- [X] "Disconnect" button at the end of match
+- [ ] Disable all "MatchMakingPlaylist" animations
+- [ ] Scrollable "MatchMakingPlaylist" with "Create Server" as default look instead of "+"
+- [ ] Use an alternative to "TFCharacterImage"for MyM backgrounds
 </details>
 
-> [LICENSE](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/tree/main?tab=License-1-ov-file#readme)
+# [LICENSE](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/tree/main?tab=License-1-ov-file#readme)
