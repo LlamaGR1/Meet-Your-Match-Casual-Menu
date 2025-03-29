@@ -11,6 +11,9 @@
 > [!IMPORTANT]
 > [HUD Wiki / Guide](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/wiki)
 
+> [!CAUTION]
+> If switching HUDs or not using this, paste in the console:<br>*tf_dashboard_slide_time 0.25; tf_mm_dashboard_slide_panel_step 20*
+
 # CHANGELOGS
 <details>
 <summary>Expand</summary>
@@ -28,7 +31,7 @@
   - TF2 Classic Advanced Options
   - Meet Your Match Main Menu without Party
 
-### v1.2 (LATEST)
+### v1.2
 - Added a "Matchmaking Settings" button next to the "Play" text when "main_menu_no_party.res" is enabled
 - Improved the Playlist look & close functionality
 - Better character move control in Class Loadout
@@ -41,6 +44,9 @@
 - Fixed grey outlines when Playlist is active
 - Added customisation
   - Shows Passive Attributes & able to switch to team RED & BLU
+
+### v1.3 (LATEST)
+- text
 </details>
 
 # ISSUES
@@ -48,14 +54,11 @@
 <summary>Expand</summary>
 <br>
 
-- [X] (Casual) "Settings" button doesn't do anything
-- [ ] (4:3 & 16:10 Aspect Ratio) "Rank/Medal/Badge" is not centered (TF2 spaghetti code)
-- [X] (4:3 & 16:10 Aspect Ratio) "Entry Chat" from "Party Chat" is off-set
-- [X] (4:3 & 16:10 Aspect Ratio) "Create Server" is off-set
-- [X] "Disconnect" button at the end of match
-- [ ] Disable all "MatchMakingPlaylist" animations
+- [ ] "Disconnect" button at the end of match doesn't work
+- [ ] Disable slide animations from the menus
 - [ ] Scrollable "MatchMakingPlaylist" with "Create Server" as default look instead of "+"
 - [ ] Use an alternative to "TFCharacterImage"for MyM backgrounds
+- [ ] (4:3 & 16:10 Aspect Ratio) "Rank/Medal/Badge" is not off-set
 </details>
 
 # [LICENSE](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/tree/main?tab=License-1-ov-file#readme)
