@@ -9,7 +9,7 @@
 > See "#customisation" folder for options
 
 > [!IMPORTANT]
-> [Wiki / Guide](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/wiki)
+> [HUD Wiki / Guide](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/wiki)
 
 # CHANGELOGS
 <details>
