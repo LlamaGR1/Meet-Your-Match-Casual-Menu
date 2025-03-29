@@ -1,0 +1,10 @@
+= How to enable a customisation =
+
+- Drag a .res file into the "enabled" folder
+———————————————————————————————————————————
+= Available customisations =
+
+- currently_equipped.res = Shows "Currently Equipped:" in Class Loadout
+- character_info_and_setup.res = Shows "Character Info And Setup" title in Loadout
+- mann_co_catalog.res = Shows "Mann Co. Catalog" title in Store
+- replays_and_movies.res = Shows "Replays And Movies" title in Replays

@@ -1,0 +1,373 @@
+"Resource/UI/MatchMakingDashboardComp.res"
+{
+	"CompStats"
+	{
+		"fieldName"		"CompStats"
+		"xpos"			"r0"
+		"ypos"			"f0"
+		"zpos"			"1002"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"ModeBackgroundImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ModeBackgroundImage"
+		"xpos"			"0"
+		"ypos"			"51"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"p0.8"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled" "0"
+		"image"			"competitive/comp_background_tier001a"
+		"scaleImage"	"1"
+	}
+
+	"BackgroundHeader"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"49"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_header"
+		"tileImage"		"1"
+	}
+
+	"HeaderLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HeaderLine"
+		"xpos"			"0"
+		"ypos"			"49"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_solid_line"
+		"scaleImage"	"1"
+	}
+
+	"BackgroundFooter"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+	}
+
+	"FooterLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FooterLine"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_solid_line"
+		"scaleImage"	"1"
+	}
+
+	"Tab"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"Tab"
+		"xpos"			"80"
+		"ypos"			"18"
+		"zpos"			"3"
+		"wide"			"208"
+		"tall"			"34"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"west"
+		"textinsetx"	"25"
+		"use_proportional_insets" "1"
+
+		"border_default"	"OutlinedGreyBox"
+		"border_armed"		"OutlinedGreyBox"
+		"paintbackground"	"0"
+	}
+
+	"Title"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"Title"
+		"xpos"			"98"
+		"ypos"			"24"
+		"zpos"			"4"
+		"wide"			"f0"
+		"tall"			"20"
+		"proportionaltoparent"	"1"
+		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
+		"textAlignment"	"west"
+		"font"			"HudFontMediumBold"
+		"fgcolor_override"	"HudOffWhite"
+
+		"mouseinputenabled"	"0"
+	}
+
+	"ShowExplanationsButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ShowExplanationsButton"
+		"xpos"			"c+275"
+		"ypos"			"10"
+		"zpos"			"100"
+		"wide"			"20"
+		"tall"			"o1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"?"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"Command"		"show_explanations"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
+	"stats"
+	{
+		"fieldName"		"stats"
+		"xpos"			"c-302"
+		"ypos"			"r352"
+		"zpos"			"100"
+		"wide"			"f0"
+		"tall"			"450"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"RankPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"-147"
+		"zpos"			"100"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+
+		"matchgroup"	"MatchGroup_Ladder_6v6"
+		"xp_source_notification_center_x"	"350"
+	}
+
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"c-297"
+		"ypos"			"115"
+		"zpos"			"101"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"alpha"			"20"
+		"scaleImage"	"1"
+		"image"			"info"
+	}
+
+	"QueueButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"QueueButton"
+		"xpos"			"c120"
+		"ypos"			"437"
+		"zpos"			"105"
+		"wide"			"180"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"START SEARCH >>"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"textinsetx"	"25"
+		"use_proportional_insets" "1"
+		"Command"		"find_game"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"cs-0.5"
+		"ypos"			"7"
+		"zpos"			"106"
+		"wide"			"160"
+		"tall"			"35"
+		"visible"		"0"
+		"enabled"		"1"
+
+		"SearchingServersBorder"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"SearchingServersBorder"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"106"
+			"wide"			"160"
+			"tall"			"35"
+			"bgcolor_override"	"0 0 0 200"
+			"border"		"QuickplayBorder"
+
+			"SearchingServersLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"SearchingServersLabel"
+				"font"			"HudFontSmallestBold"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"107"
+				"wide"			"160"
+				"tall"			"35"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#TF_MM_WaitDialog_Title_ShowServers"
+				"centerwrap"	"1"
+			}
+		}
+	}
+
+	"PlayWithFriendsExplanation"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayWithFriendsExplanation"
+		"xpos"			"c-20"
+		"ypos"			"130"
+		"zpos"			"8"
+		"wide"			"321"
+		"tall"			"285"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"bgcolor_override"	"0 0 0 200"
+		"border"		"QuickplayBorder"
+
+		"PlayWithFriendsExplanationTitle"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PlayWithFriendsExplanationTitle"
+			"font"			"HudFontSmallBold"
+			"labelText"		"#TF_Matchmaking_PlayWithFriends"
+			"textAlignment"	"center"
+			"xpos"			"cs-0.5"
+			"ypos"			"0"
+			"zpos"			"10"
+			"wide"			"p0.8"
+			"tall"			"32"
+			"proportionaltoparent"	"1"
+		}
+
+		"FriendsImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"FriendsImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"32"
+			"zpos"			"0"
+			"wide"			"180"
+			"tall"			"90"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"pve/mvm_friends_image"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+		}
+
+		"PlayWithFriendsExplanationLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PlayWithFriendsExplanationLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"#TF_Comp_PlayWithFriendsExplanation"
+			"textAlignment"	"north-west"
+			"xpos"			"cs-0.5"
+			"ypos"			"130"
+			"zpos"			"10"
+			"wide"			"p0.8"
+			"tall"			"150"
+			"wrap"			"1"
+			"proportionaltoparent"	"1"
+		}
+	}
+
+	"StartPartyButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"StartPartyButton"
+		"xpos"			"c+110"
+		"ypos"			"380"
+		"zpos"			"105"
+		"wide"			"180"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Matchmaking_StartParty"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"Command"		"url https://steamcommunity.com/chat/"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
+	"BackButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton"
+		"xpos"			"c-305"
+		"ypos"			"437"
+		"zpos"			"105"
+		"wide"			"180"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_BackCarat"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"textinsetx"	"25"
+		"use_proportional_insets" "1"
+		"Command"		"nav_close"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+}
