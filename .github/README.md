@@ -61,6 +61,7 @@
 - New colours for Party Member & improved the tooltip
 - Updated the MOTD
 - Updated the Party Chat
+- Updated the Friends list
 - Updated the Party Members
 - Updated the Featured panel
 - Updated the Queue panel
@@ -78,7 +79,6 @@
 - Fixed the game softlocking when changing Video settings
 - Fixed the Level being off-set in Match Summery
 - Fixed Map Vote Panel being off-set in Match Summery
-- Fixed Friends list
 - Fixed Loadout
 - Fixed Item Test menu overlapping with 'Find A Game', 'Friends', 'Messages'
 - Fixed 'Activate Virtual Reality' button
