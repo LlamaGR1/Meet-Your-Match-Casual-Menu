@@ -61,6 +61,7 @@
 - New colours for Party Member & improved the tooltip
 - Updated the MOTD
 - Updated the Party Chat
+- Updated the Party Members
 - Updated the Featured panel
 - Updated the Queue panel
 - 'Q' navigation to exit Loadout & Shop
