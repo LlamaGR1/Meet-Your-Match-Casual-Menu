@@ -69,6 +69,7 @@
 - Improved the Loadout & added page buttons
 - Improved the Playlist
 - Improved the 'Find A Game', 'Friends', 'Messages' buttons
+- Improved the 'Matchmaking Settings' panel
 - 'Mute Players' now uses the modern menu
 - Updated the pre-Tough Break scoreboard
 - Adjusted the Notifications (Alerts) panel
