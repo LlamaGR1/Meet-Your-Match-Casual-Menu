@@ -65,13 +65,14 @@
 - Updated the Party Members
 - Updated the Featured panel
 - Updated the Queue panel
+- Updated the TF2C Advanced Options menu
 - 'Q' navigation to exit Loadout & Shop
 - Improved the Loadout & added page buttons
 - Improved the Playlist
 - Improved the 'Find A Game', 'Friends', 'Messages' buttons
 - Improved the 'Matchmaking Settings' panel
 - 'Mute Players' now uses the modern menu
-- Updated the pre-Tough Break scoreboard
+- Updated the pre-Tough Break Scoreboard
 - Adjusted the Notifications (Alerts) panel
 - Added 'Disconnect' button at the end of match (cosmetic)
 - Added remaining Christmas & Halloween backgrounds
@@ -94,6 +95,7 @@
 <summary>Expand</summary>
 <br>
 
+- [ ] (Casual, Competitive, MvM) 'Back' button closes all menus
 - [ ] 'Disconnect' button at the end of match doesn't work
 - [ ] Disable slide animations from the menus
 - [ ] Scrollable 'MatchMakingPlaylist' with 'Create Server' as default look instead of '+'
