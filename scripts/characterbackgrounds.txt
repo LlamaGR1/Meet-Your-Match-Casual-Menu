@@ -1,0 +1,27 @@
+"characters"
+{
+	"competitive"
+	{
+		"image"	"../console/title_team_competitive_widescreen"
+	}
+
+	"blu_heavy"
+	{
+		"image"	"../console/title_team_heavy01_blu_widescreen"
+	}
+
+	"red_heavy"
+	{
+		"image"	"../console/title_team_heavy01_red_widescreen"
+	}
+
+	"blu_pyro"
+	{
+		"image"	"../console/title_team_pyro01_blu_widescreen"
+	}
+
+	"red_pyro"
+	{
+		"image"	"../console/title_team_pyro01_red_widescreen"
+	}
+}
