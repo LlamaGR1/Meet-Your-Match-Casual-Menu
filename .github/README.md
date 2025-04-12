@@ -46,19 +46,20 @@
 - Fixed all Help/Explanation Tips
 - Fixed grey outlines when Playlist is active
 
-### v2.0 *(2025/4/1)* - LATEST
-
+### v2.0 *(2025/4/13)* - LATEST
 - Added Utilities Drawer
   - Includes; Vote Map, MinMode, Team Status, DemoUI, Clear Decals, Reload Sounds, Reload HUD, ADV. Reload HUD, Fix Invis Players, Console
 - Added Customisation
-  - main_menu_style_mym, main_menu_style_vanilla
-- Added Extras Customisation
-  - shop_image_new, character_info_and_setup, mann_co_catalog, replays_and_movies, currently_equipped
-- (Casual & Competitive) New 'Searching For Servers' text when queueing
-- (Casual & Competitive) Changed the 'Settings' icon to 'Help'
-- (Casual) 'Help' button sends you to MyM Casual info site
-- Replaced the 'Matchmaking Settings' with an icon when 'main_menu_no_party' is enabled
+  - main_menu_style_mym, main_menu_style_vanilla, shop_image_new
+- (Casual & Competitive) Clicking the 'Settings' button now opens a 'Welcome Dialog'
+- (Casual & Competitive) Added 'Searching...' panel when queueing
+- (Competitive) 'Leaderboard' now displays a loading message
+- Replaced the 'Matchmaking Settings' button with an icon when 'main_menu_no_party' is enabled
 - New colours for Party Member & improved the tooltip
+- New Loading Screen
+- New teammates health info
+- New Killfeed
+- Last damage done near the player's health
 - Updated the MOTD
 - Updated the Party Chat
 - Updated the Friends list
@@ -66,28 +67,40 @@
 - Updated the Featured panel
 - Updated the Queue panel
 - Updated the TF2C Advanced Options menu
-- 'Q' navigation to exit Loadout & Shop
-- Improved the Loadout & added page buttons
-- Improved the Playlist
-- Improved the 'Find A Game', 'Friends', 'Messages' buttons
-- Improved the 'Matchmaking Settings' panel
+- Updated all Loadout menus ('Class Loadout','Backpack', 'Crafting', 'Mann Co. Catalog')
+- Updated the 'Shop' & 'Checkout' menus
+- Updated the Playlist
+- Updated the 'Find A Game', 'Friends', 'Messages' buttons
+- Updated the 'Matchmaking Settings' panel
+- Updated the 'Casual', 'Competitive', 'MvM' menus
+- Updated the 'Replays' menu
+- Updated the 'Stats' menu
+- Updated the Scoreboard
+- Added 'Explanation' in 'Mann Co. Store'
+- Added 'Explanation' in 'Crafting'
 - 'Mute Players' now uses the modern menu
 - Updated the pre-Tough Break Scoreboard
-- Adjusted the Notifications (Alerts) panel
+- 'Q' navigation to exit Loadout & Shop
+- Adjusted the Notifications (Alerts) panel position
 - Added 'Disconnect' button at the end of match (cosmetic)
-- Added remaining Christmas & Halloween backgrounds
+- Added some Christmas & Halloween backgrounds
 - (4:3 & 16:10) Fixed Create Server being off-set 
 - (4:3 & 16:10) Fixed Party Chat being off-set
+- (4:3 & 16:10) Fixed 'InnerShadowBorder' being off-set
+- (Casual) Fixed misaligned Explanations
 - Fixed the game softlocking when changing Video settings
 - Fixed the Level being off-set in Match Summery
 - Fixed Map Vote Panel being off-set in Match Summery
-- Fixed Loadout
 - Fixed Item Test menu overlapping with 'Find A Game', 'Friends', 'Messages'
 - Fixed 'Activate Virtual Reality' button
 - Fixed 'Back To Replays' being off-set
+- Fixed ExplanationPopUp buttons
+- Fixed ChatPopup appearing when queueing for a mode
 - Fixed buttons when selected
-- (Casual) Fixed misaligned Explanations
-- Removed key navigation in the Main Menu
+- Removed key/controller navigation in the Main Menu
+- classloadout_master.res is now the default option (removed classlaodout_vanilla.res)
+- scoreboard_old.res is now the default option (removed scoreboard_vanilla.res)
+
 </details>
 
 # ISSUES
@@ -100,7 +113,7 @@
 - [ ] Disable slide animations from the menus
 - [ ] Scrollable 'MatchMakingPlaylist' with 'Create Server' as default look instead of '+'
 - [ ] Use an alternative to 'TFCharacterImage' for MyM backgrounds
-- [ ] (4:3 & 16:10 Aspect Ratio) 'Rank/Medal/Badge' is not off-set
+- [ ] (4:3 & 16:10 Aspect Ratio) 'Rank/Medal/Badge' is off-set
 </details>
 
 # [LICENSE](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/tree/main?tab=License-1-ov-file#readme)
