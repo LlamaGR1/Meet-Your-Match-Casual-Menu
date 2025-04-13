@@ -2297,7 +2297,7 @@
 	{
 		"ControlName"	"Panel"
 		"xpos"			"c-285"
-		"ypos"			"r-77"
+		"ypos"			"r-79"
 	}
 
 	"partychat"

@@ -1,6 +1,6 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"PlayerStatusHealthImage"
+	"PlayerStatusHealthImage" // tanlight cross
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
@@ -65,31 +65,44 @@
 		"image"			"../hud/health_over_bg"
 	}
 
-	"PlayerStatusHealthValue"
+	"PlayerStatusHealthValueNormal"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
+		"fieldName"		"PlayerStatusHealthValueNormal"
 		"xpos"			"6"
-		"xpos_minmode"	"4"
 		"ypos"			"11"
-		"ypos_minmode"	"7"
 		"zpos"			"6"
 		"wide"			"20"
-		"wide_minmode"	"25"
+		"wide_minmode"	"0"
 		"tall"			"10"
-		"tall_minmode"	"15"
+		"tall_minmode"	"0"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"StorePromotionsTitle"
-		"font_minmode"	"HudFontSmallBold"
 		"fgcolor"		"TanDark"
+	}
+
+	"PlayerStatusHealthValueMinMode"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueMinMode"
+		"xpos_minmode"	"4"
+		"ypos_minmode"	"7"
+		"zpos"			"6"
+		"wide"			"0"
+		"wide_minmode"	"25"
+		"tall"			"0"
+		"tall_minmode"	"15"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"font_minmode"	"HudFontSmallBold"
 		"fgcolor_minmode" "TanLight"
 	}
 
-	"PlayerStatusHealthValue1"
+	"PlayerStatusHealthValueMinModeShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue1"
+		"fieldName"		"PlayerStatusHealthValueMinModeShadow"
 		"xpos_minmode"	"5"
 		"ypos_minmode"	"8"
 		"zpos"			"5"

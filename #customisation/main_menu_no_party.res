@@ -89,11 +89,11 @@
 		"ypos"					"-5"
 		"zpos"					"-50"
 		"wide"					"f0"
-		"tall"					"289"
+		"tall"					"291"
 		"keyboardinputenabled"	"0"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"289"
+		"expanded_height"	"291"
 		"resize_time"		"0"
 
 		"FindAGameButton1"

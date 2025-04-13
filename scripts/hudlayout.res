@@ -28,7 +28,7 @@
 
 	MMDashBoardPopupContainer
 	{
-		"ypos"			"-276"
+		"ypos"			"-278"
 	}
 
 	HudPlayerStatus
