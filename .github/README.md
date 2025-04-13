@@ -1,6 +1,6 @@
 ![Meet Your Match Casual Menu Logo](https://github.com/user-attachments/assets/a930cb18-c936-4936-9c6a-d93dbb555246)
 <p align="center">
-  <a href="https://gamebanana.com/wips/58201">GameBanana</a> • <a href="https://tf2huds.dev/hud/Meet-Your-Match-Casual-Menu">TF2 HUDs</a>
+  <a href="https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu">GitHub</a> • <a href="https://tf2huds.dev/hud/Meet-Your-Match-Casual-Menu">TF2 HUDs</a> • <a href="https://gamebanana.com/wips/58201">GameBanana</a>
 </p>
 
 ---
