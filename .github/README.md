@@ -76,14 +76,13 @@
 - Updated the 'Replays' menu
 - Updated the 'Stats' menu
 - Updated the Scoreboard
-- Added 'Explanation' in 'Mann Co. Store'
-- Added 'Explanation' in 'Crafting'
+- Added Explanations in 'Mann Co. Store'
+- Added Explanations in 'Crafting'
 - 'Mute Players' now uses the modern menu
-- Updated the pre-Tough Break Scoreboard
 - 'Q' navigation to exit Loadout & Shop
 - Adjusted the Notifications (Alerts) panel position
 - Added 'Disconnect' button at the end of match (cosmetic)
-- Added some Christmas & Halloween backgrounds
+- Added some missing Christmas & Halloween backgrounds
 - (4:3 & 16:10) Fixed Create Server being off-set 
 - (4:3 & 16:10) Fixed Party Chat being off-set
 - (4:3 & 16:10) Fixed 'InnerShadowBorder' being off-set
