@@ -1,6 +1,6 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"PlayerStatusHealthImage" // tanlight cross
+	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
