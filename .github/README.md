@@ -18,35 +18,21 @@
 <details>
 <summary>Expand</summary>
 
-### v1.0 *(2025/2/16)*
+### v2.69 *(2025/4/20)* - LATEST
 - Added Customisation
-  - main_menu_party, main_menu_no_party, scoreboard_old, scoreboard_vanilla, advanced_options_tf2c, advanced_options_vanilla
-- Updated the 'Matchmaking Settings' to match Meet Your Match
-- Updated the 'Competitive Access Info' to match Meet Your Match
-- (Casual & Competitive) Fixed Help/Explanation Tips
-- (Casual, Competitive, MvM) 'Create Party' button opens your Steam friends on your browser
-- Attempt to disable the sliding animations for the menus
-- Under the hood changes
+  - class_loadout_vanilla (for the cry babies)
+- (Casual & Competitive) Updated the 'Welcome Dialog' menus
+- (Casual & Competitive) Reworked the 'Searching...' panel when queueing
+- Updated the Utilities Drawer
+- Updated the Friends list
+- Updated the Party Members
+- Updated the Itemtest menu
+- Fixed Tips being off-set in certain resolutions
+- (Competitive) Fixed the 'Rank/Medal/Badge' being off-set in Match Summery (UNTESTED)
+- Reverted the Killfeed change
 - Other bug fixes
 
-### v1.1 *(2025/2/16)*
-- 'View Promotional Codes' is no longer visible if you don't have any to claim
-
-### v1.2 *(2025/2/21)*
-- Added Customisation
-  - class_loadout_master, class_loadout_vanilla
-- Added 'Matchmaking Settings' button next to the 'Play' text when 'main_menu_no_party' is enabled
-- Improved the Playlist look & close functionality
-- Better character move control in Class Loadout
-- A/D navigation to move pages in the Backpack
-- Fixed some buttons & textures being off-set in Loadout
-- 'Cancel' & 'OK' buttons are now centered in the Vanilla Advanced Options
-- Attempt to fix 'Friends' & 'Messages' buttons being off-set in 16:9
-- Fixed floating 'CExImageButton' text on some menus
-- Fixed all Help/Explanation Tips
-- Fixed grey outlines when Playlist is active
-
-### v2.0 *(2025/4/13)* - LATEST
+### v2.0 *(2025/4/13)*
 - Added Utilities Drawer
   - Includes; Vote Map, MinMode, Team Status, DemoUI, Clear Decals, Reload Sounds, Reload HUD, ADV. Reload HUD, Fix Invis Players, Console
 - Added Customisation
@@ -100,6 +86,33 @@
 - classloadout_master.res is now the default option (removed classlaodout_vanilla.res)
 - scoreboard_old.res is now the default option (removed scoreboard_vanilla.res)
 
+### v1.2 *(2025/2/21)*
+- Added Customisation
+  - class_loadout_master, class_loadout_vanilla
+- Added 'Matchmaking Settings' button next to the 'Play' text when 'main_menu_no_party' is enabled
+- Improved the Playlist look & close functionality
+- Better character move control in Class Loadout
+- A/D navigation to move pages in the Backpack
+- Fixed some buttons & textures being off-set in Loadout
+- 'Cancel' & 'OK' buttons are now centered in the Vanilla Advanced Options
+- Attempt to fix 'Friends' & 'Messages' buttons being off-set in 16:9
+- Fixed floating 'CExImageButton' text on some menus
+- Fixed all Help/Explanation Tips
+- Fixed grey outlines when Playlist is active
+
+### v1.1 *(2025/2/16)*
+- 'View Promotional Codes' is no longer visible if you don't have any to claim
+
+### v1.0 *(2025/2/16)*
+- Added Customisation
+  - main_menu_party, main_menu_no_party, scoreboard_old, scoreboard_vanilla, advanced_options_tf2c, advanced_options_vanilla
+- Updated the 'Matchmaking Settings' to match Meet Your Match
+- Updated the 'Competitive Access Info' to match Meet Your Match
+- (Casual & Competitive) Fixed Help/Explanation Tips
+- (Casual, Competitive, MvM) 'Create Party' button opens your Steam friends on your browser
+- Attempt to disable the sliding animations for the menus
+- Under the hood changes
+- Other bug fixes
 </details>
 
 # ISSUES
