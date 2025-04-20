@@ -18,12 +18,12 @@
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"45 42 43 255"
+		"titlebarfgcolor_override"			"200 187 161 255"
+		"titlebardisabledfgcolor_override"	"200 187 161 255"
+		"titlebarbgcolor_override"			"45 42 43 255"
 
-		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"40"
+		"clientinsetx_override"		"0"
+		"sheetinset_bottom"			"40"
 
 		"item_entry_kv"
 		{

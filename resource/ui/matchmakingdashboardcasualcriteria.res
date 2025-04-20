@@ -251,7 +251,7 @@
 				"tall"			"12"
 				"labelText"		"#TF_LobbyContainer_Help"
 				"font"			"HudFontSmallest"
-				"textinsetx"	"5"
+				"textinsetx"	"12"
 				"command"		"toggle_collapse"
 				"RoundedCorners" "0"
 
@@ -371,52 +371,21 @@
 				"fgcolor_override" "TanDark"
 			}
 
-			"NeverShowAgainCheckBox"
-			{
-				"ControlName"	"CheckButton"
-				"fieldName"		"NeverShowAgainCheckBox"
-				"xpos"			"c-262"
-				"ypos"			"280"
-				"zpos"			"4"
-				"wide"			"200"
-				"tall"			"20"
-				"font"			"HudFontSmall"
-				"labelText"		"#TF_Competitive_Welcome_DontShow"
-				"proportionalToParent"	"1"
-			}
-
-			"LearnMoreButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"LearnMoreButton"
-				"xpos"			"c-37"
-				"ypos"			"276"
-				"zpos"			"4"
-				"wide"			"150"
-				"tall"			"25"
-				"labelText"		"#Store_LearnMore"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"Command"		"url https://www.teamfortress.com/meetyourmatch/#:~:text=for%20more%20information.-,CASUAL%20MODE"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-			}
-
 			"ConfirmButton"
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"ConfirmButton"
-				"xpos"			"c+123"
+				"xpos"			"c+33"
 				"ypos"			"276"
 				"zpos"			"4"
-				"wide"			"150"
+				"wide"			"240"
 				"tall"			"25"
 				"labelText"		"#TF_Competitive_Welcome_Confirm"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"toggle_collapse"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				"sound_depressed" "UI/buttonclick.wav"
+				"sound_released" "UI/buttonclickrelease.wav"
 			}
 		}
 	}
@@ -459,38 +428,72 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ToolTipButtonHack"
-		"xpos"			"cs-0.5"
-		"ypos"			"7"
-		"zpos"			"106"
-		"wide"			"140"
-		"tall"			"35"
+		"xpos"			"c-300"
+		"ypos"			"130"
+		"zpos"			"101"
+		"wide"			"251"
+		"tall"			"285"
 		"visible"		"0"
+		"mouseinputenabled" "0"
+		"bgcolor_override"	"0 0 0 235"
+		"border"		"QuickplayBorder"
 
-		"SearchingServersBorder"
+		"SearchingLabel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"SearchingServersBorder"
+			"ControlName"	"CExLabel"
+			"fieldName"		"SearchingLabel"
+			"font"			"HudFontMediumBold"
 			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"106"
-			"wide"			"140"
-			"tall"			"35"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"ypos"			"-10"
+			"zpos"			"103"
+			"wide"			"251"
+			"tall"			"285"
+			"labelText"		"SEARCHING..."
+			"centerwrap"	"1"
+		}
 
-			"SearchingServersLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"SearchingServersLabel"
-				"font"			"HudFontSmallBold"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"107"
-				"wide"			"140"
-				"tall"			"35"
-				"labelText"		"SEARCHING..."
-				"centerwrap"	"1"
-			}
+		"SearchingLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SearchingLabelShadow"
+			"font"			"HudFontMediumBold"
+			"xpos"			"2"
+			"ypos"			"-8"
+			"zpos"			"102"
+			"wide"			"251"
+			"tall"			"285"
+			"fgcolor_override" "46 43 42 255"
+			"labelText"		"SEARCHING..."
+			"centerwrap"	"1"
+		}
+
+		"FindingMatchLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"FindingMatchLabel"
+			"font"			"HudFontSmall"
+			"xpos"			"0"
+			"ypos"			"10"
+			"zpos"			"103"
+			"wide"			"251"
+			"tall"			"285"
+			"labelText"		"Finding a match, please wait..."
+			"centerwrap"	"1"
+		}
+
+		"FindingMatchLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"FindingMatchLabelShadow"
+			"font"			"HudFontSmall"
+			"xpos"			"1"
+			"ypos"			"11"
+			"zpos"			"102"
+			"wide"			"251"
+			"tall"			"285"
+			"fgcolor_override" "46 43 42 255"
+			"labelText"		"Finding a match, please wait..."
+			"centerwrap"	"1"
 		}
 	}
 

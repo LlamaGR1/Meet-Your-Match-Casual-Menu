@@ -13,33 +13,7 @@
 
 				"if_mini"
 				{
-					"origin_z"	"2"
-				}
-			}
-		}
-
-		"MedalButton"
-		{
-			"ypos"			"cs-0.5-10"
-			"wide"			"75"
-			"tall"			"85"
-		}
-	}
-
-	"BGPanel"
-	{
-		"StatsContainer"
-		{
-			"XPBar"
-			{
-				"CurrentXPLabel"
-				{
-					"visible"		"1"
-				}
-
-				"NextLevelXPLabel"
-				{
-					"visible"		"1"
+					"origin_z"	"20"
 				}
 			}
 		}

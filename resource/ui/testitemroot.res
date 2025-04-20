@@ -7,11 +7,9 @@
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"481"
-		"bgcolor_override"		"46 43 42 255"
-		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"45 42 43 255"
+		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	""
-		"paintborder"			"0"
-		"paintbackground"		"1"
 	}
 
 	"TitleLabel"
@@ -27,6 +25,23 @@
 		"wide"			"f0"
 		"tall"			"25"
 		"fgcolor_override" "200 80 60 255"
+	}
+
+	"ShowExplanationsButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ShowExplanationsButton"
+		"xpos"			"c280"
+		"ypos"			"15"
+		"zpos"			"2"
+		"wide"			"20"
+		"tall"			"20"
+		"labelText"		"?"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"Command"		"url https://wiki.teamfortress.com/wiki/Itemtest"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"ClassUsagePanel"

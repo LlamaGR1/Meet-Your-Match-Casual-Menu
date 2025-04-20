@@ -106,6 +106,7 @@
 					"start_activated"	"0"
 					"loop"				"0"
 				}
+
 				"1"
 				{
 					"particle_xpos"		"c0"
@@ -115,6 +116,7 @@
 					"start_activated"	"0"
 					"loop"				"0"
 				}
+
 				"2"
 				{
 					"particle_xpos"		"c-8"
@@ -215,10 +217,10 @@
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
-				"CurrentXPLabel2"
+				"CurrentLabel"
 				{
 					"ControlName"	"Label"
-					"fieldName"		"CurrentXPLabel2"
+					"fieldName"		"CurrentLabel"
 					"xpos"			"0"
 					"ypos"			"rs1"
 					"zpos"			"0"

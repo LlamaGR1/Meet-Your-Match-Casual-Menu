@@ -24,6 +24,7 @@
 		"labeltext"		""
 		"roundedcorners"	"0"
 
+		"sound_armed"		"UI/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 

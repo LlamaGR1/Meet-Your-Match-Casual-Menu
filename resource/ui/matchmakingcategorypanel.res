@@ -62,7 +62,6 @@
 			"wide"			"f0"
 			"tall"			"9"
 			"proportionaltoparent"	"1"
-
 			"actionsignallevel"	"2"
 			"command"		"toggle_collapse"
 			"labeltext"		"#TF_Casual_ViewMaps"

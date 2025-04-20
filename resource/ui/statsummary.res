@@ -36,54 +36,51 @@
 
 	}
 
-	"TipText2"
+	"TipLabel"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"TipText2"
+		"fieldName"		"TipLabel"
 		"font"			"HudFontMedium"
 		"labelText"		"#StatSummary_Label_TIP"
-		"textAlignment"	"center"
-		"xpos"			"30"
+		"textAlignment"	"west"
+		"xpos"			"32"
 		"ypos"			"r100"
 		"zpos"			"12"
-		"wide"			"40"
+		"wide"			"42"
 		"tall"			"50"
 	}
 
-	"TipText2Shadow"
+	"TipLabelShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TipText2Shadow"
+		"fieldName"		"TipLabelShadow"
 		"font"			"HudFontMedium"
 		"labelText"		"#StatSummary_Label_TIP"
-		"textAlignment"	"center"
-		"xpos"			"31"
+		"textAlignment"	"west"
+		"xpos"			"33"
 		"ypos"			"r99"
 		"zpos"			"11"
-		"wide"			"40"
+		"wide"			"42"
 		"tall"			"50"
 
 		"fgcolor"		"TanDarker"
 	}
 
-	"TipImage"
-	{
-		"fieldName"		"TipImage"
-		"xpos"			"35"
-	}
-
-	"TipText"
+	"TipText1"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"TipText"
+		"fieldName"		"TipText1"
 		"font"			"HudFontSmallestShadow"
 		"labelText"		"%tiptext%"
 		"textAlignment"	"west"
-		"ypos"			"r100"
 		"zpos"			"13"
 		"wide"			"370"
 		"tall"			"50"
 		"wrap"			"1"
+
+		"pin_to_sibling" "TipLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "3"
 	}
 
 	"OnYourWayLabel"
@@ -139,7 +136,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"45 42 43 255"
 
 		"Background"
 		{

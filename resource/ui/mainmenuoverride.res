@@ -103,7 +103,7 @@
 		}
 	}
 
-	"mouseoveritempanel"
+	"mouseoveritempanel" // wtf is this
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"mouseoveritempanel"
@@ -155,14 +155,14 @@
 
 		if_wider
 		{
-			"wide"			"f0"
-			"tall"			"o0.628"
+			"wide"		"f0"
+			"tall"		"o0.628"
 		}
 
 		if_taller
 		{
-			"wide"			"o1.6"
-			"tall"			"f0"
+			"wide"		"o1.6"
+			"tall"		"f0"
 		}
 
 		if_halloween_0
@@ -388,9 +388,9 @@
 			"wide"			"33"
 			"tall"			"32"
 			"labelText"		""
+			"command"		"toggle_collapse"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"command"		"toggle_collapse"
 
 			"paintbackground"	"0"
 			"image_drawcolor"	"235 226 202 255"
@@ -430,9 +430,9 @@
 			"wide"			"14"
 			"tall"			"14"
 			"labeltext"		""
+			"command"		"toggle_collapse"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"command"		"toggle_collapse"
 
 			"paintbackground"	"0"
 
@@ -528,10 +528,11 @@
 				"tall"			"f0"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
+				"sound_armed"		"UI/item_info_mouseover.wav"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"border_default"	"TFFatLineBorder"
 				"border_armed"		"TFFatLineBorder"
@@ -562,10 +563,11 @@
 				"tall"			"f0"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
+				"sound_armed"		"UI/item_info_mouseover.wav"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"border_default"	"TFFatLineBorder"
 				"border_armed"		"TFFatLineBorder"
@@ -596,10 +598,11 @@
 				"tall"			"f0"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
+				"sound_armed"		"UI/item_info_mouseover.wav"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"border_default"	"TFFatLineBorder"
 				"border_armed"		"TFFatLineBorder"
@@ -625,6 +628,7 @@
 			"use_proportional_insets" "1"
 			"command"		"engine toggle cl_hud_minmode"
 			"actionsignallevel"	"2"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -649,6 +653,7 @@
 			"use_proportional_insets" "1"
 			"command"		"engine toggle tf_use_match_hud"
 			"actionsignallevel"	"2"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -673,6 +678,7 @@
 			"use_proportional_insets" "1"
 			"command"		"engine demoui"
 			"actionsignallevel"	"2"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -697,6 +703,7 @@
 			"use_proportional_insets" "1"
 			"command"		"engine r_cleardecals; r_cleardecals; r_cleardecals"
 			"actionsignallevel"	"2"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -721,6 +728,7 @@
 			"use_proportional_insets" "1"
 			"command"		"engine snd_restart"
 			"actionsignallevel"	"2"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -746,6 +754,7 @@
 			"use_proportional_insets" "1"
 			"command"		"engine hud_reloadscheme"
 			"actionsignallevel"	"2"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -790,10 +799,11 @@
 				"font"			"HudFontMediumSmallBold"
 				"textAlignment"	"center"
 				"textinsety"	"8"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"2"
+				"sound_armed"		"UI/item_info_mouseover.wav"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"paintbackground"	"0"
 
@@ -817,6 +827,7 @@
 			"use_proportional_insets" "1"
 			"command"		"engine record fix; stop"
 			"actionsignallevel"	"2"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -841,6 +852,7 @@
 			"use_proportional_insets" "1"
 			"command"		"engine toggleconsole"
 			"actionsignallevel"	"2"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -870,7 +882,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"VersionLabel"
 			"font"			"HudFontSmallest"
-			"labelText"		"v2.0 - 2025/04/13"
+			"labelText"		"v2.69 - 2025/04/20"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"237"
@@ -912,10 +924,11 @@
 				"ypos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"2"
+				"sound_armed"		"UI/item_info_mouseover.wav"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"paintbackground"	"0"
 
@@ -1679,8 +1692,6 @@
 			"wide"			"20"
 			"tall"			"20"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1728,8 +1739,6 @@
 			"wide"			"20"
 			"tall"			"20"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1777,8 +1786,6 @@
 			"wide"			"20"
 			"tall"			"20"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1826,8 +1833,6 @@
 			"wide"			"20"
 			"tall"			"20"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1865,8 +1870,8 @@
 		"zpos"			"-50"
 		"wide"			"f0"
 		"tall"			"60"
-		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
+		"image"			"loadout_bottom_gradient"
 	}
 
 	"FooterLine"
@@ -1892,8 +1897,6 @@
 		"wide"			"30"
 		"tall"			"25"
 		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
 		"command"		"view_newuser_forums"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1924,8 +1927,6 @@
 		"wide"			"30"
 		"tall"			"25"
 		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
 		"command"		"OpenAchievementsDialog"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1956,8 +1957,6 @@
 		"wide"			"30"
 		"tall"			"25"
 		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
 		"command"		"OpenLoadSingleplayerCommentaryDialog"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1988,8 +1987,6 @@
 		"wide"			"25"
 		"tall"			"25"
 		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
 		"command"		"engine cl_coach_toggle"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -2020,8 +2017,6 @@
 		"wide"			"30"
 		"tall"			"25"
 		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
 		"command"		"engine OpenSteamWorkshopDialog"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -2052,8 +2047,6 @@
 		"wide"			"25"
 		"tall"			"25"
 		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
 		"command"		"engine replay_reloadbrowser"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -2084,8 +2077,6 @@
 		"wide"			"30"
 		"tall"			"25"
 		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
 		"command"		"engine bug"
 
 		"sound_depressed"	"UI/buttonclick.wav"

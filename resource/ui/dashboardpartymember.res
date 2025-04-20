@@ -28,18 +28,17 @@
 
 	"EmptyMemberSlot"
 	{
-		"ControlName"	"Label"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"EmptyMemberSlot"
-		"xpos"			"4"
-		"ypos"			"0"
+		"xpos"			"2"
+		"ypos"			"2"
 		"zpos"			"100"
-		"wide"			"f2"
-		"tall"			"f2"
-		"labeltext"		"+"
-		"font"			"DefaultLarge"
-		"proportionaltoparent" "1"
+		"wide"			"12"
+		"tall"			"12"
+		"drawcolor"		"94 83 75 255"
+		"scaleImage"	"1"
+		"image"			"glyph_close_x"
 		"mouseinputenabled" "0"
-		"fgcolor_override" "94 83 75 255"
 	}
 
 	"LeaderIcon"
@@ -132,6 +131,7 @@
 		"roundedcorners" "0"
 		"actionsignallevel" "1"
 
+		"sound_armed"		"UI/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 

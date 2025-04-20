@@ -10,20 +10,20 @@
 		"tall"			"480"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"				"45 42 43 0"
+		"infocus_bgcolor_override"		"45 42 43 0"
+		"outoffocus_bgcolor_override"	"45 42 43 0"
 
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"-7"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
+		"titlebarfgcolor_override"			"200 187 161 255"
+		"titlebardisabledfgcolor_override"	"200 187 161 255"
+		"titlebarbgcolor_override"			"46 43 42 255"
 
-		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"40"
+		"clientinsetx_override"		"0"
+		"sheetinset_bottom"			"40"
 	}
 
 	"BackgroundHeader"
