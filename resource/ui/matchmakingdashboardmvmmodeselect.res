@@ -83,7 +83,6 @@
 		"mouseinputenabled"	"0"
 
 		"border_default"	"OutlinedGreyBox"
-		"border_armed"		"OutlinedGreyBox"
 		"paintbackground"	"0"
 
 		"defaultFgColor_override"	"HudOffWhite"

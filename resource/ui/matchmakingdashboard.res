@@ -118,8 +118,6 @@
 				"wide"			"14"
 				"tall"			"14"
 				"labeltext"		""
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"Command"		"manage_queues"
@@ -127,10 +125,6 @@
 				"actionsignallevel"	"3"
 
 				"paintbackground"	"0"
-
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
 
 				"image_drawcolor"	"235 226 202 255"
 				"image_armedcolor"	"104 124 155 255"
@@ -156,8 +150,6 @@
 				"wide"			"14"
 				"tall"			"14"
 				"labeltext"		""
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"Command"		"leave_queue"
@@ -165,10 +157,6 @@
 				"actionsignallevel"	"3"
 
 				"paintbackground"	"0"
-
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
 
 				"image_drawcolor"	"235 226 202 255"
 				"image_armedcolor"	"200 80 60 255"

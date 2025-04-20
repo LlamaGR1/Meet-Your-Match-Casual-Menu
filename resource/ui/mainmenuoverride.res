@@ -43,16 +43,19 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"border_default"	"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
+				"border_default"	"MainMenuButtonGlow"
+				"border_armed"		"MainMenuButtonGlow2"
+				"border_selected" 	"MainMenuButtonGlow2"
 				"paintbackground"	"0"
 
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override" "255 255 255 255"
+				"depressedFgColor_override" "0 0 0 255"
+				"selectedFgColor_override" "0 0 0 255"
 
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_drawcolor"	"255 255 255 255"
+				"image_armedcolor"	"255 255 255 255"
+				"image_selectedcolor" "0 0 0 255"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -64,79 +67,6 @@
 					"scaleImage"	"1"
 				}
 			}
-		}
-
-		"SaxxySettings"
-		{
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-101"
-			"wide"			"f0"
-			"tall"			"480"
-
-			"flashbounds_x"	"50"
-			"flashbounds_y"	"65"
-			"flashbounds_w"	"250"
-			"flashbounds_h"	"120"
-
-			"flashstartsize_min"	"8"
-			"flashstartsize_max"	"12"
-
-			"flash_maxscale"		"4"
-
-			"flash_lifelength_min"	".1"
-			"flash_lifelength_max"	".2"
-
-			"curtain_anim_duration"		"4.0"
-			"curtain_open_time"		"2.8"
-			"flash_start_time"		"4.0"
-
-			"initial_freakout_duration"		"15.0"
-			"clap_sound_duration"	"10.0"
-
-			"CameraFlashSettings"
-			{
-				"tileImage"		"0"
-				"scaleImage"	"1"
-				"zpos"			"9"
-			}
-		}
-	}
-
-	"mouseoveritempanel" // wtf is this
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
-		"border"		"MainMenuBGBorder"
-
-		"text_ypos"			"20"
-		"text_center"		"1"
-		"model_hide"		"1"
-		"resize_to_text"	"1"
-		"padding_height"	"15"
-
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"1"
 		}
 	}
 
@@ -540,6 +470,7 @@
 
 				"armedFgColor_override" "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
+				"selectedFgColor_override" "255 255 255 255"
 			}
 		}
 
@@ -575,6 +506,7 @@
 
 				"armedFgColor_override" "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
+				"selectedFgColor_override" "255 255 255 255"
 			}
 		}
 
@@ -610,6 +542,7 @@
 
 				"armedFgColor_override" "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
+				"selectedFgColor_override" "255 255 255 255"
 			}
 		}
 
@@ -632,10 +565,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "255 255 255 255"
 			"border_default"	"TFFatLineBorder"
 			"paintbackground"	"0"
+
+			"armedFgColor_override" "255 255 255 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"selectedFgColor_override" "255 255 255 255"
 		}
 
 		"TeamStatusButton"
@@ -657,10 +592,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "255 255 255 255"
 			"border_default"	"TFFatLineBorder"
 			"paintbackground"	"0"
+
+			"armedFgColor_override" "255 255 255 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"selectedFgColor_override" "255 255 255 255"
 		}
 
 		"DemoUIButton"
@@ -682,10 +619,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "255 255 255 255"
 			"border_default"	"TFFatLineBorder"
 			"paintbackground"	"0"
+
+			"armedFgColor_override" "255 255 255 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"selectedFgColor_override" "255 255 255 255"
 		}
 
 		"ClearDecalsButton"
@@ -707,10 +646,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "255 255 255 255"
 			"border_default"	"TFFatLineBorder"
 			"paintbackground"	"0"
+
+			"armedFgColor_override" "255 255 255 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"selectedFgColor_override" "255 255 255 255"
 		}
 
 		"ReloadSoundsButton"
@@ -732,10 +673,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "255 255 255 255"
 			"border_default"	"TFFatLineBorder"
 			"paintbackground"	"0"
+
+			"armedFgColor_override" "255 255 255 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"selectedFgColor_override" "255 255 255 255"
 		}
 
 		"ReloadHudButton"
@@ -758,10 +701,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "255 255 255 255"
 			"border_default"	"TFFatLineBorder"
 			"paintbackground"	"0"
+
+			"armedFgColor_override" "255 255 255 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"selectedFgColor_override" "255 255 255 255"
 		}
 
 		"VerticalLine"
@@ -809,6 +754,7 @@
 
 				"armedFgColor_override" "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
+				"selectedFgColor_override" "255 255 255 255"
 			}
 		}
 
@@ -831,10 +777,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "255 255 255 255"
 			"border_default"	"TFFatLineBorder"
 			"paintbackground"	"0"
+
+			"armedFgColor_override" "255 255 255 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"selectedFgColor_override" "255 255 255 255"
 		}
 
 		"ConsoleButton"
@@ -856,10 +804,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "255 255 255 255"
 			"border_default"	"TFFatLineBorder"
 			"paintbackground"	"0"
+
+			"armedFgColor_override" "255 255 255 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"selectedFgColor_override" "255 255 255 255"
 		}
 
 		"HudLabel"
@@ -1691,7 +1641,6 @@
 			"ypos"			"0"
 			"wide"			"20"
 			"tall"			"20"
-			"use_proportional_insets" "1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1699,10 +1648,6 @@
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"border_selected"	"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
 
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1738,7 +1683,6 @@
 			"ypos"			"0"
 			"wide"			"20"
 			"tall"			"20"
-			"use_proportional_insets" "1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1746,10 +1690,6 @@
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"border_selected"	"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
 
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1785,7 +1725,6 @@
 			"ypos"			"0"
 			"wide"			"20"
 			"tall"			"20"
-			"use_proportional_insets" "1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1793,10 +1732,6 @@
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"border_selected"	"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
 
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1832,7 +1767,6 @@
 			"ypos"			"0"
 			"wide"			"20"
 			"tall"			"20"
-			"use_proportional_insets" "1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1840,10 +1774,6 @@
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"border_selected"	"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
 
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"

@@ -422,7 +422,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DragToNextPageButton"
-		"xpos"			"c290"
+		"xpos"			"c289"
 		"ypos"			"154"
 		"zpos"			"1"
 		"wide"			"25"
@@ -440,7 +440,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DragToPrevPageButton"
-		"xpos"			"c-315"
+		"xpos"			"c-316"
 		"ypos"			"154"
 		"zpos"			"1"
 		"wide"			"25"

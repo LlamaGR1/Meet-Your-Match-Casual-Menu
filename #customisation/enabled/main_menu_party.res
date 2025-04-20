@@ -278,8 +278,6 @@
 				"proportionaltoparent"	"1"
 
 				"party_slot"	"4"
-
-
 			}
 
 			"PartySlot5"

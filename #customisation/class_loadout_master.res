@@ -522,8 +522,10 @@
 
 		"armedBgColor_override" "177 45 45 255"
 		"depressedBgColor_override" "177 45 45 255"
+		"selectedBgColor_override" "177 45 45 255"
 		"defaultFgColor_override" "177 45 45 255"
 		"armedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" "235 226 202 255"
 
 		"pin_to_sibling" "classmodelpanel"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
@@ -547,8 +549,10 @@
 
 		"armedBgColor_override" "54 86 160 255"
 		"depressedBgColor_override" "54 86 160 255"
+		"selectedBgColor_override" "54 86 160 255"
 		"defaultFgColor_override" "54 86 160 255"
 		"armedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" "235 226 202 255"
 
 		"pin_to_sibling" "RedButton"
 	}

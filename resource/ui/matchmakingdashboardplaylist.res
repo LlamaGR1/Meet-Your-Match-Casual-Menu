@@ -46,7 +46,6 @@
 				"fieldName"		"SubImage"
 				"xpos"			"3"
 				"ypos"			"3"
-				"zpos"			"1555"
 				"wide"			"9"
 				"tall"			"9"
 				"scaleImage"	"1"

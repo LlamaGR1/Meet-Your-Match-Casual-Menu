@@ -81,7 +81,6 @@
 		"mouseinputenabled"	"0"
 
 		"border_default"	"OutlinedGreyBox"
-		"border_armed"		"OutlinedGreyBox"
 		"paintbackground"	"0"
 
 		"defaultFgColor_override"	"HudOffWhite"
@@ -258,9 +257,11 @@
 				"defaultBgColor_override" "0 0 0 0"
 				"armedBgColor_override" "TanLight"
 				"depressedBgColor_override" "TanLight"
+				"selectedBgColor_override" "TanLight"
 				"defaultFgColor_override" "TanLight"
 				"armedFgColor_override" "TanDark"
 				"depressedFgColor_override" "TanDark"
+				"selectedFgColor_override" "TanDark"
 			}
 
 			"ConfirmDialog"

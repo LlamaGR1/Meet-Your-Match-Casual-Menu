@@ -138,6 +138,7 @@
 				"defaultBgColor_override" "0 0 0 64"
 				"armedBgColor_override" "0 0 0 0"
 				"depressedBgColor_override" "0 0 0 0"
+				"selectedBgColor_override" "0 0 0 0"
 
 				"image_drawcolor"	"200 200 200 255"
 				"image_armedcolor"	"255 255 255 255"
@@ -208,6 +209,7 @@
 				"defaultBgColor_override" "0 0 0 64"
 				"armedBgColor_override" "0 0 0 0"
 				"depressedBgColor_override" "0 0 0 0"
+				"selectedBgColor_override" "0 0 0 0"
 
 				"image_drawcolor"	"200 200 200 255"
 				"image_armedcolor"	"255 255 255 255"
@@ -295,6 +297,7 @@
 				"defaultBgColor_override" "0 0 0 64"
 				"armedBgColor_override" "0 0 0 0"
 				"depressedBgColor_override" "0 0 0 0"
+				"selectedBgColor_override" "0 0 0 0"
 
 				"image_drawcolor"	"200 200 200 255"
 				"image_armedcolor"	"255 255 255 255"

@@ -138,6 +138,7 @@
 		"defaultBgColor_override" "0 0 0 0"
 		"armedBgColor_override" "117 107 94 62"
 		"depressedBgColor_override" "117 107 94 62"
+		"selectedBgColor_override" "117 107 94 62"
 	}
 
 	"Spinner"

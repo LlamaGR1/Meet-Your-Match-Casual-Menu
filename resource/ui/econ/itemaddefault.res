@@ -171,10 +171,12 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
+		"selectedFgColor_override" "White"
 
 		"defaultBgColor_override" "72 103 32 255"
 		"armedBgColor_override" "72 133 32 255"
 		"depressedBgColor_override" "72 133 32 255"
+		"selectedBgColor_override" "72 133 32 255"
 	}
 
 	"MarketButton"
@@ -202,9 +204,11 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
+		"selectedFgColor_override" "White"
 
 		"defaultBgColor_override" "72 103 32 255"
 		"armedBgColor_override" "72 133 32 255"
 		"depressedBgColor_override" "72 133 32 255"
+		"selectedBgColor_override" "72 133 32 255"
 	}
 }
