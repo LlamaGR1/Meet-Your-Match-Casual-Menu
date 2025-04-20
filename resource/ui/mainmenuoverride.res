@@ -253,21 +253,15 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_ShowButtonPanel_SB"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
 			"wide"			"32"
 			"tall"			"32"
 			"labelText"		""
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
 			"actionsignallevel" "2"
-
 			"command"		"noti_show"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
+
+			"paintbackground"	"0"
 
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -279,6 +273,128 @@
 				"tall"			"32"
 				"scaleImage"	"1"
 				"image"			"button_Alert"
+			}
+		}
+	}
+
+	"Notifications_Panel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Notifications_Panel"
+		"xpos"			"c0"
+		"ypos"			"65"
+		"zpos"			"10"
+		"wide"			"210"
+		"tall"			"80"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground"	"0"
+		"border"		"MainMenuHighlightBorder"
+
+		"Notifications_CloseButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"Notifications_CloseButton"
+			"xpos"			"186"
+			"ypos"			"8"
+			"zpos"			"10"
+			"wide"			"14"
+			"tall"			"14"
+			"labeltext"		""
+			"actionsignallevel"	"2"
+			"command"		"noti_hide"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"0"
+
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"200 80 60 255"
+			"image_selectedcolor" "200 80 60 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"wide"			"14"
+				"tall"			"14"
+				"scaleImage"	"1"
+				"image"			"close_button"
+			}
+		}
+
+		"Notifications_TitleLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Notifications_TitleLabel"
+			"font"			"HudFontSmallBold"
+			"labelText"		"%notititle%"
+			"textAlignment"	"north-west"
+			"xpos"			"12"
+			"ypos"			"8"
+			"wide"			"250"
+			"tall"			"20"
+			"fgcolor"		"LabelDark"
+			"wrap"			"1"
+		}
+
+		"Notifications_Scroller"
+		{
+			"ControlName"	"ScrollableEditablePanel"
+			"fieldName"		"Notifications_Scroller"
+			"xpos"			"8"
+			"ypos"			"25"
+			"wide"			"210"
+			"tall"			"135"
+			"PaintBackgroundType"	"2"
+			"fgcolor_override"	"117 107 94 255"
+
+			"Notifications_Control"
+			{
+				"ControlName"	"CMainMenuNotificationsControl"
+				"fieldName"		"Notifications_Control"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"220"
+				"tall"			"135"
+			}
+		}
+	}
+
+	"QuestLogButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"QuestLogButton"
+		"xpos"			"c188"
+		"ypos"			"28"
+		"zpos"			"10"
+		"wide"			"32"
+		"tall"			"32"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"wide"			"32"
+			"tall"			"32"
+			"labelText"		""
+			"command"		"questlog"
+			"actionsignallevel" "2"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"0"
+
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"wide"			"32"
+				"tall"			"32"
+				"scaleImage"	"1"
+				"image"			"button_quests_pda"
 			}
 		}
 	}
@@ -313,7 +429,6 @@
 		{
 			"ControlName"	"CExImageButton"
 			"xpos"			"223"
-			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"33"
 			"tall"			"32"
@@ -323,6 +438,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"paintbackground"	"0"
+
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -452,20 +568,16 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"SubButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
+				"wide"			"20"
+				"tall"			"20"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
 				"sound_armed"		"UI/item_info_mouseover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"border_default"	"TFFatLineBorder"
-				"border_armed"		"TFFatLineBorder"
 				"paintbackground"	"0"
 
 				"armedFgColor_override" "255 255 255 255"
@@ -488,20 +600,16 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"SubButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
+				"wide"			"20"
+				"tall"			"20"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
 				"sound_armed"		"UI/item_info_mouseover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"border_default"	"TFFatLineBorder"
-				"border_armed"		"TFFatLineBorder"
 				"paintbackground"	"0"
 
 				"armedFgColor_override" "255 255 255 255"
@@ -524,20 +632,16 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"SubButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
+				"wide"			"20"
+				"tall"			"20"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
 				"sound_armed"		"UI/item_info_mouseover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"border_default"	"TFFatLineBorder"
-				"border_armed"		"TFFatLineBorder"
 				"paintbackground"	"0"
 
 				"armedFgColor_override" "255 255 255 255"
@@ -558,7 +662,6 @@
 			"labelText"		"MINMODE"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"use_proportional_insets" "1"
 			"command"		"engine toggle cl_hud_minmode"
 			"actionsignallevel"	"2"
 			"sound_armed"		"UI/item_info_mouseover.wav"
@@ -585,7 +688,6 @@
 			"labelText"		"TEAM STATUS"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"use_proportional_insets" "1"
 			"command"		"engine toggle tf_use_match_hud"
 			"actionsignallevel"	"2"
 			"sound_armed"		"UI/item_info_mouseover.wav"
@@ -612,7 +714,6 @@
 			"labelText"		"DEMOUI"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"use_proportional_insets" "1"
 			"command"		"engine demoui"
 			"actionsignallevel"	"2"
 			"sound_armed"		"UI/item_info_mouseover.wav"
@@ -639,7 +740,6 @@
 			"labelText"		"CLEAR DECALS"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"use_proportional_insets" "1"
 			"command"		"engine r_cleardecals; r_cleardecals; r_cleardecals"
 			"actionsignallevel"	"2"
 			"sound_armed"		"UI/item_info_mouseover.wav"
@@ -666,7 +766,6 @@
 			"labelText"		"RELOAD SOUNDS"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"use_proportional_insets" "1"
 			"command"		"engine snd_restart"
 			"actionsignallevel"	"2"
 			"sound_armed"		"UI/item_info_mouseover.wav"
@@ -737,14 +836,11 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"SubButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
+				"wide"			"18"
+				"tall"			"23"
 				"font"			"HudFontMediumSmallBold"
 				"textAlignment"	"center"
 				"textinsety"	"8"
-				"proportionaltoparent"	"1"
 				"actionsignallevel"	"2"
 				"sound_armed"		"UI/item_info_mouseover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -770,7 +866,6 @@
 			"labelText"		"FIX INVIS PLAYERS"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"use_proportional_insets" "1"
 			"command"		"engine record fix; stop"
 			"actionsignallevel"	"2"
 			"sound_armed"		"UI/item_info_mouseover.wav"
@@ -797,7 +892,6 @@
 			"labelText"		"CONSOLE"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"use_proportional_insets" "1"
 			"command"		"engine toggleconsole"
 			"actionsignallevel"	"2"
 			"sound_armed"		"UI/item_info_mouseover.wav"
@@ -819,7 +913,6 @@
 			"font"			"HudFontSmallest"
 			"labelText"		"Meet Your Match Casual Menu"
 			"textAlignment"	"center"
-			"xpos"			"0"
 			"ypos"			"226"
 			"zpos"			"5"
 			"wide"			"240"
@@ -834,7 +927,6 @@
 			"font"			"HudFontSmallest"
 			"labelText"		"v2.69 - 2025/04/20"
 			"textAlignment"	"center"
-			"xpos"			"0"
 			"ypos"			"237"
 			"zpos"			"5"
 			"wide"			"240"
@@ -870,11 +962,8 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"SubButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
-				"proportionaltoparent"	"1"
+				"wide"			"8"
+				"tall"			"8"
 				"actionsignallevel"	"2"
 				"sound_armed"		"UI/item_info_mouseover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -897,53 +986,6 @@
 		}
 	}
 
-	"QuestLogButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"QuestLogButton"
-		"xpos"			"c188"
-		"ypos"			"28"
-		"zpos"			"10"
-		"wide"			"32"
-		"tall"			"32"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"labelText"		""
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"command"		"questlog"
-			"actionsignallevel" "2"
-			"proportionaltoparent"	"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"wide"			"f0"
-				"tall"			"f0"
-				"proportionaltoparent"	"1"
-				"scaleImage"	"1"
-				"image"			"button_quests_pda"
-			}
-		}
-	}
-
 	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -958,18 +1000,16 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_ShowButtonPanel_SB"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
 			"wide"			"32"
 			"tall"			"32"
 			"labelText"		""
-			"actionsignallevel" "2"
 			"command"		"motd_show"
-
+			"actionsignallevel" "2"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
+
+			"paintbackground"	"0"
+
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -1002,8 +1042,6 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_HeaderContainer"
-			"xpos"			"0"
-			"ypos"			"0"
 			"wide"			"300"
 			"tall"			"22"
 
@@ -1014,8 +1052,6 @@
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"labelText"		"%motdheader%"
-				"xpos"			"0"
-				"ypos"			"0"
 				"wide"			"300"
 				"tall"			"24"
 				"PaintBackgroundType" "2"
@@ -1032,8 +1068,6 @@
 			"wide"			"14"
 			"tall"			"14"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
 			"actionsignallevel"	"2"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1186,11 +1220,8 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"MOTD_TextPanel"
-				"xpos"			"0"
-				"ypos"			"0"
 				"wide"			"250"
 				"tall"			"300"
-				"PaintBackgroundType"	"2"
 
 				"MOTD_TextLabel"
 				{
@@ -1199,8 +1230,6 @@
 					"font"			"HudFontSmall"
 					"labelText"		"%motdtext%"
 					"textAlignment"	"north-west"
-					"xpos"			"0"
-					"ypos"			"0"
 					"wide"			"250"
 					"tall"			"300"
 					"fgcolor"		"LabelDark"
@@ -1218,111 +1247,15 @@
 			"wide"			"150"
 			"tall"			"15"
 			"labelText"		"#MMenu_MOTD_URL"
-			"textinsetx"	"20"
-			"use_proportional_insets" "1"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"command"		"motd_viewurl"
 			"proportionaltoparent" "1"
 			"actionsignallevel"	"2"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultBgColor_override" "46 43 42 255"
-			"defaultFgColor_override" "235 226 202 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "235 226 202 255"
-		}
-	}
-
-	"Notifications_Panel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"65"
-		"zpos"			"10"
-		"wide"			"210"
-		"tall"			"80"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"Notifications_CloseButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"Notifications_CloseButton"
-			"xpos"			"186"
-			"ypos"			"8"
-			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"actionsignallevel"	"2"
-			"command"		"noti_hide"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"	"0"
-
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"image_selectedcolor" "200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"wide"			"14"
-				"tall"			"14"
-				"scaleImage"	"1"
-				"image"			"close_button"
-			}
-		}
-
-		"Notifications_TitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Notifications_TitleLabel"
-			"font"			"HudFontSmallBold"
-			"labelText"		"%notititle%"
-			"textAlignment"	"north-west"
-			"xpos"			"12"
-			"ypos"			"8"
-			"wide"			"250"
-			"tall"			"20"
-			"fgcolor"		"LabelDark"
-			"wrap"			"1"
-		}
-
-		"Notifications_Scroller"
-		{
-			"ControlName"	"ScrollableEditablePanel"
-			"fieldName"		"Notifications_Scroller"
-			"xpos"			"8"
-			"ypos"			"25"
-			"wide"			"210"
-			"tall"			"135"
-			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"117 107 94 255"
-
-			"Notifications_Control"
-			{
-				"ControlName"	"CMainMenuNotificationsControl"
-				"fieldName"		"Notifications_Control"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"220"
-				"tall"			"135"
-			}
 		}
 	}
 
