@@ -20,7 +20,7 @@
 
 ### v2.69 *(2025/4/20)* - LATEST
 - Added Customisation
-  - class_loadout_vanilla (for the cry babies)
+  - class_loadout_vanilla
 - (Casual & Competitive) Updated the 'Welcome Dialog' menus
 - (Casual & Competitive) Reworked the 'Searching...' panel when queueing
 - Updated the Utilities Drawer
