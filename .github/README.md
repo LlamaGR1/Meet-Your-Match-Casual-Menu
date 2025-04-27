@@ -122,7 +122,7 @@
 
 - [ ] (Casual, Competitive, MvM) 'Back' button closes all menus
 - [ ] 'Disconnect' button at the end of match doesn't work
-- [ ] https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/issues/1
+- [ ] [Competitive rank is off-set at the end of match](https://github.com/LlamaGR1/Meet-Your-Match-Casual-Menu/issues/1)
 - [ ] Disable slide animations from the menus
 - [ ] Scrollable 'MatchMakingPlaylist' with 'Create Server' as default look instead of '+'
 - [ ] Use an alternative to 'TFCharacterImage' for MyM backgrounds
