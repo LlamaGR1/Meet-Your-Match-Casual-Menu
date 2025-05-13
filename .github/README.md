@@ -18,7 +18,14 @@
 <details>
 <summary>Expand</summary>
 
-### v2.69 *(2025/4/20)* - LATEST
+### v2.75 *(2025/5/13)* - LATEST
+- Updated the Backpack 
+- Removed TF2C Advanced Options customisation
+- (Competitive) Fixed the 'Rank/Medal/Badge' being off-set in Match Summery (hopefully)
+- Under the hood changes
+-  Other bug fixes
+
+### v2.69 *(2025/4/20)*
 - Added Customisation
   - class_loadout_vanilla
 - (Casual & Competitive) Updated the 'Welcome Dialog' menus
