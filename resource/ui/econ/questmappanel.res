@@ -451,17 +451,18 @@
 						"zpos"			"1"
 						"wide"			"230"
 						"tall"			"35"
-						"RoundedCorners"	"0"
 						"labelText"		"#TF_QuestMap_Intro_Step1Button"
 						"font"			"HudFontSmallBold"
 						"textAlignment"	"center"
-						"stay_armed_on_click"	"1"
 
 						"defaultBgColor_override"	"TanDark"
 						"armedBgColor_override"		"QuestMap_ActiveOrange"
+						"depressedBgColor_override"	"QuestMap_ActiveOrange"
+						"selectedBgColor_override"	"QuestMap_ActiveOrange"
 
 						"image_drawcolor"	"255 255 255 255"
 						"image_armedcolor"	"0 0 0 0"
+						"image_selectedcolor" "0 0 0 0"
 						"SubImage"
 						{
 							"ControlName"	"ImagePanel"
@@ -484,17 +485,18 @@
 						"zpos"			"1"
 						"wide"			"230"
 						"tall"			"35"
-						"RoundedCorners"	"0"
 						"labelText"		"#TF_QuestMap_Intro_Step2Button"
 						"font"			"HudFontSmallBold"
 						"textAlignment"	"center"
-						"stay_armed_on_click"	"1"
 
 						"defaultBgColor_override"	"TanDark"
 						"armedBgColor_override"		"QuestMap_ActiveOrange"
+						"depressedBgColor_override"	"QuestMap_ActiveOrange"
+						"selectedBgColor_override"	"QuestMap_ActiveOrange"
 
 						"image_drawcolor"	"255 255 255 255"
 						"image_armedcolor"	"0 0 0 0"
+						"image_selectedcolor" "0 0 0 0"
 						"SubImage"
 						{
 							"ControlName"	"ImagePanel"
@@ -517,17 +519,18 @@
 						"zpos"			"1"
 						"wide"			"230"
 						"tall"			"35"
-						"RoundedCorners"	"0"
 						"labelText"		"#TF_QuestMap_Intro_Step3Button"
 						"font"			"HudFontSmallBold"
 						"textAlignment"	"center"
-						"stay_armed_on_click"	"1"
 
 						"defaultBgColor_override"	"TanDark"
 						"armedBgColor_override"		"QuestMap_ActiveOrange"
+						"depressedBgColor_override"	"QuestMap_ActiveOrange"
+						"selectedBgColor_override"	"QuestMap_ActiveOrange"
 
 						"image_drawcolor"	"255 255 255 255"
 						"image_armedcolor"	"0 0 0 0"
+						"image_selectedcolor" "0 0 0 0"
 						"SubImage"
 						{
 							"ControlName"	"ImagePanel"

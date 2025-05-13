@@ -2,12 +2,12 @@
 {
 	"TestItemRoot"
 	{
-		"fieldName"				"TestItemRoot"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"481"
-		"bgcolor_override"		"45 42 43 255"
+		"fieldName"		"TestItemRoot"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"481"
+		"bgcolor_override"	"45 42 43 255"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	""
 	}

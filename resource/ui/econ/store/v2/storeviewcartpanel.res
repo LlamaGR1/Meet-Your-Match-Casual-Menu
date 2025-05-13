@@ -10,17 +10,17 @@
 		"tall"			"480"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"45 42 43 0"
-		"infocus_bgcolor_override"		"45 42 43 0"
-		"outoffocus_bgcolor_override"	"45 42 43 0"
+		"bgcolor_override"				"0 0 0 0"
+		"infocus_bgcolor_override"		"0 0 0 0"
+		"outoffocus_bgcolor_override"	"0 0 0 0"
 
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"			"200 187 161 255"
-		"titlebardisabledfgcolor_override"	"200 187 161 255"
-		"titlebarbgcolor_override"			"45 42 43 255"
+		"titlebarfgcolor_override"			"0 0 0 0"
+		"titlebardisabledfgcolor_override"	"0 0 0 0"
+		"titlebarbgcolor_override"			"0 0 0 0"
 
 		"clientinsetx_override"		"0"
 		"sheetinset_bottom"			"40"
@@ -187,6 +187,32 @@
 		"paintbackground"	"0"
 
 		"defaultFgColor_override"	"HudOffWhite"
+	}
+
+	"BackgroundFooter"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"60"
+		"tileImage"		"1"
+		"image"			"loadout_bottom_gradient"
+	}
+
+	"FooterLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FooterLine"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"10"
+		"scaleImage"	"1"
+		"image"			"loadout_solid_line"
 	}
 
 	"ClientArea"

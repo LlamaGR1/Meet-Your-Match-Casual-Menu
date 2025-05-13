@@ -80,7 +80,7 @@
 		"xpos"			"c-280"
 		"ypos"			"2"
 		"zpos"			"1"
-		"wide"			"560"
+		"wide"			"250"
 		"tall"			"25"
 	}
 
@@ -257,11 +257,12 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c-106"
+		"xpos"			"c-108"
 		"ypos"			"290"
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
+		"enabled"		"0"
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
@@ -288,7 +289,7 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%thumbnailpage%"
 		"textAlignment"	"center"
-		"xpos"			"c-80"
+		"xpos"			"c-82"
 		"ypos"			"290"
 		"zpos"			"5"
 		"wide"			"60"
@@ -300,7 +301,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c-15"
+		"xpos"			"c-17"
 		"ypos"			"290"
 		"zpos"			"5"
 		"wide"			"20"
@@ -362,8 +363,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StoreButton"
-		"xpos"			"c-138"
-		"ypos"			"323"
+		"xpos"			"c-197"
+		"ypos"			"326"
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"25"

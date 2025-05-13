@@ -1,6 +1,6 @@
 "Resource/HudLayout.res"
 {
-	HudDeathNotice // Default
+	HudDeathNotice
 	{
 		"fieldName"		"HudDeathNotice"
 		"xpos"			"r640"
@@ -24,32 +24,6 @@
 
 		"BaseBackgroundColor"	"46 43 42 220"
 		"LocalBackgroundColor"	"245 229 196 200"
-	}
-
-	HudDeathNotice2 // Custom
-	{
-		"fieldName"		"HudDeathNotice2"
-		"xpos"			"r640"
-		"ypos"			"18"
-		"wide"			"628"
-		"tall"			"468"
-
-		"MaxDeathNotices"	"4"
-		"IconScale"		"0.35"
-		"LineHeight"	"16"
-		"LineSpacing"	"4"
-		"CornerRadius"	"3"
-		"RightJustify"	"1"
-
-		"TextFont"		"HudFontSmallest"
-
-		"TeamBlue"		"86 121 196 255"
-		"TeamRed"		"198 66 43 255"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"TanLight"
-
-		"BaseBackgroundColor"	"39 39 44 255"
-		"LocalBackgroundColor"	"0 0 0 255"
 	}
 
 	MMDashBoardPopupContainer
@@ -427,7 +401,6 @@
 
 	HudDamageIndicator
 	{
-
 	}
 
 	HudCommentary

@@ -391,7 +391,7 @@
 		"ypos"			"15"
 		"wide"			"69"
 		"tall"			"15"
-		"fgcolor"		"200 80 60 255"
+		"fgcolor"		"TanDark"
 		"mouseinputenabled" "0"
 	}
 
@@ -406,7 +406,7 @@
 		"ypos"			"15"
 		"wide"			"69"
 		"tall"			"15"
-		"fgcolor"		"200 80 60 255"
+		"fgcolor"		"TanDark"
 		"mouseinputenabled" "0"
 	}
 
@@ -421,7 +421,7 @@
 		"ypos"			"15"
 		"wide"			"69"
 		"tall"			"15"
-		"fgcolor"		"200 80 60 255"
+		"fgcolor"		"TanDark"
 		"mouseinputenabled" "0"
 	}
 
@@ -447,7 +447,7 @@
 		"xpos"				"c-300"
 		"ypos"				"30"
 		"zpos"				"1"
-		"wide"				"225"
+		"wide"				"230"
 		"tall"				"19"
 
 		"auto_scale"		"1"

@@ -33,7 +33,7 @@
 				"ypos"			"0"
 				"wide"			"120"
 				"tall"			"30"
-				"fgcolor_override"	"235 227 203 255"
+				"fgcolor_override"	"235 226 202 255"
 			}
 
 			"CyclingAd"
@@ -228,7 +228,7 @@
 
 				"image_drawcolor" "0 0 0 0"
 				"image_armedcolor" "117 107 94 255"
-				"image_selectedcolor" "235 227 203 255"
+				"image_selectedcolor" "235 226 202 255"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"

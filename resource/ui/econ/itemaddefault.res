@@ -37,7 +37,7 @@
 		"mouseinputenabled"	"0"
 
 		"font"			"AdFont_ItemName"
-		"fgcolor"		"235 227 203 255"
+		"fgcolor"		"235 226 202 255"
 		"use_proportional_insets" "1"
 		"textinsetx"	"5"
 		"textinsety"	"0"

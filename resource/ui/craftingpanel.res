@@ -409,9 +409,9 @@
 			"visible"	"0"
 		}
 
+		"resize_time"		"0"
 		"collapsed_height"	"20"
 		"expanded_height"	"480"
-		"resize_time"	"0"
 
 		"HelpButton"
 		{

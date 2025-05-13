@@ -134,9 +134,9 @@
 			"visible"	"0"
 		}
 
+		"resize_time"		"0"
 		"collapsed_height"	"30"
 		"expanded_height"	"480"
-		"resize_time"	"0"
 
 		"OptionsButton"
 		{

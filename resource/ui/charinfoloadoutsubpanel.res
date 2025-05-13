@@ -41,6 +41,7 @@
 		"tall"				"120"
 		"pinCorner"			"2"
 		"labelText"			"&1"
+		"textinsetx"		"1945"
 		"Command"			"loadout scout"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_scout_red"
@@ -49,10 +50,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"selectedBgColor_override" "0 0 0 0"
-		"defaultFgColor_override" "0 0 0 0"
-		"armedFgColor_override" "0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-		"selectedFgColor_override" "0 0 0 0"
 	}
 
 	"soldier"
@@ -66,6 +63,7 @@
 		"tall"				"120"
 		"pinCorner"			"2"
 		"labelText"			"&2"
+		"textinsetx"		"1945"
 		"Command"			"loadout soldier"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_soldier_red"
@@ -74,10 +72,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"selectedBgColor_override" "0 0 0 0"
-		"defaultFgColor_override" "0 0 0 0"
-		"armedFgColor_override" "0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-		"selectedFgColor_override" "0 0 0 0"
 	}
 
 	"pyro"
@@ -91,6 +85,7 @@
 		"tall"				"120"
 		"pinCorner"			"2"
 		"labelText"			"&3"
+		"textinsetx"		"1945"
 		"Command"			"loadout pyro"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_pyro_red"
@@ -99,10 +94,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"selectedBgColor_override" "0 0 0 0"
-		"defaultFgColor_override" "0 0 0 0"
-		"armedFgColor_override" "0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-		"selectedFgColor_override" "0 0 0 0"
 	}
 
 	"demoman"
@@ -116,6 +107,7 @@
 		"tall"				"120"
 		"pinCorner"			"2"
 		"labelText"			"&4"
+		"textinsetx"		"1945"
 		"Command"			"loadout demoman"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_demo_red"
@@ -124,10 +116,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"selectedBgColor_override" "0 0 0 0"
-		"defaultFgColor_override" "0 0 0 0"
-		"armedFgColor_override" "0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-		"selectedFgColor_override" "0 0 0 0"
 	}
 
 	"heavyweapons"
@@ -141,6 +129,7 @@
 		"tall"				"120"
 		"pinCorner"			"2"
 		"labelText"			"&5"
+		"textinsetx"		"1945"
 		"Command"			"loadout heavy"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_heavy_red"
@@ -149,10 +138,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"selectedBgColor_override" "0 0 0 0"
-		"defaultFgColor_override" "0 0 0 0"
-		"armedFgColor_override" "0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-		"selectedFgColor_override" "0 0 0 0"
 	}
 
 	"engineer"
@@ -166,6 +151,7 @@
 		"tall"				"120"
 		"pinCorner"			"2"
 		"labelText"			"&6"
+		"textinsetx"		"1945"
 		"Command"			"loadout engineer"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_engineer_red"
@@ -174,10 +160,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"selectedBgColor_override" "0 0 0 0"
-		"defaultFgColor_override" "0 0 0 0"
-		"armedFgColor_override" "0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-		"selectedFgColor_override" "0 0 0 0"
 	}
 
 	"medic"
@@ -191,6 +173,7 @@
 		"tall"				"120"
 		"pinCorner"			"2"
 		"labelText"			"&7"
+		"textinsetx"		"1945"
 		"Command"			"loadout medic"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_medic_red"
@@ -199,10 +182,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"selectedBgColor_override" "0 0 0 0"
-		"defaultFgColor_override" "0 0 0 0"
-		"armedFgColor_override" "0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-		"selectedFgColor_override" "0 0 0 0"
 	}
 
 	"sniper"
@@ -216,6 +195,7 @@
 		"tall"				"120"
 		"pinCorner"			"2"
 		"labelText"			"&8"
+		"textinsetx"		"1945"
 		"Command"			"loadout sniper"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_sniper_red"
@@ -224,10 +204,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"selectedBgColor_override" "0 0 0 0"
-		"defaultFgColor_override" "0 0 0 0"
-		"armedFgColor_override" "0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-		"selectedFgColor_override" "0 0 0 0"
 	}
 
 	"spy"
@@ -241,6 +217,7 @@
 		"tall"				"120"
 		"pinCorner"			"2"
 		"labelText"			"&9"
+		"textinsetx"		"1945"
 		"Command"			"loadout spy"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_spy_red"
@@ -249,10 +226,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"selectedBgColor_override" "0 0 0 0"
-		"defaultFgColor_override" "0 0 0 0"
-		"armedFgColor_override" "0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-		"selectedFgColor_override" "0 0 0 0"
 	}
 
 	"ShowBackpackButton"

@@ -118,12 +118,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MannVsMachineGroupBox"
-		"xpos"		"c-305"
-		"ypos"		"61"
-		"zpos"		"8"
-		"wide"		"400"
-		"tall"		"350"
-		"border"	"MainMenuHighlightBorder"
+		"xpos"			"c-305"
+		"ypos"			"61"
+		"zpos"			"8"
+		"wide"			"400"
+		"tall"			"350"
+		"border"		"MainMenuHighlightBorder"
 
 		"MannVsMachineLabel"
 		{

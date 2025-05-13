@@ -33,7 +33,7 @@
 				"ypos"			"0"
 				"wide"			"120"
 				"tall"			"30"
-				"fgcolor_override"	"235 227 203 255"
+				"fgcolor_override"	"235 226 202 255"
 			}
 
 			"CyclingAd"
@@ -116,7 +116,7 @@
 				"ypos"			"0"
 				"wide"			"120"
 				"tall"			"30"
-				"fgcolor_override"	"235 227 203 255"
+				"fgcolor_override"	"235 226 202 255"
 			}
 
 			"SteamFriendsList"

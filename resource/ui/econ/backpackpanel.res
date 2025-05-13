@@ -67,20 +67,17 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
 				"font"			"FontStorePrice"
-				"textAlignment"	"east"
-				"ypos"			"0"
-				"xpos"			"0"
-				"zpos"			"0"
-				"wide"			"f1"
-				"tall"			"f-3"
-				"textinsetx"	"8"
+				"textAlignment"	"center"
+				"zpos"			"9999"
+				"wide"			"25"
+				"tall"			"13"
 				"visible"		"0"
 				"labelText"		"#Store_Price_New"
 				"mouseinputenabled" "0"
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
 				"border"		"StoreNewBorder"
-				"fgcolor"		"10 10 10 255"
+				"fgcolor"		"46 43 42 255"
 			}
 		}
 
@@ -119,21 +116,18 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
 				"font"			"FontStorePrice"
-				"textAlignment"	"east"
+				"textAlignment"	"center"
 				"xpos"			"rs1"
-				"ypos"			"0"
-				"zpos"			"15"
+				"zpos"			"9999"
 				"wide"			"25"
 				"tall"			"12"
-				"textinsetx"	"8"
 				"skip_autoresize"	"1"
 				"visible"		"0"
 				"labelText"		"#Store_Price_New"
 				"mouseinputenabled" "0"
-				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
 				"border"		"StoreNewBorder"
-				"fgcolor"		"10 10 10 255"
+				"fgcolor"		"46 43 42 255"
 			}
 
 			"use_item_sounds"	"1"
@@ -142,31 +136,32 @@
 
 	"CaratLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-288"
-		"ypos"			"10"
+		"ypos"			"23"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"15"
 		"fgcolor_override" "200 80 60 255"
 	}
 
-	"ClassLabel"
+	"BackpackLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ClassLabel"
+		"fieldName"		"BackpackLabel"
 		"font"			"HudFontMediumSmallBold"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-268"
 		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"170"
-		"tall"			"25"
+		"wide"			"190"
+		"tall"			"50"
+		"wrap"			"1"
 	}
 
 	"tool_icon"
@@ -191,7 +186,7 @@
 		"fieldName"			"ShowRarityComboBox"
 		"Font"				"HudFontSmallestBold"
 		"wrap"				"0"
-		"xpos"				"c-85"
+		"xpos"				"c-76"
 		"ypos"				"37"
 		"zpos"				"1"
 		"wide"				"205"
@@ -218,7 +213,7 @@
 		"labelText"		"#ShowBaseItemsCheckBox"
 		"Font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
-		"xpos"			"c-89"
+		"xpos"			"c-80"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"209"
@@ -236,7 +231,7 @@
 		"ypos"			"-1"
 		"wide"			"69"
 		"tall"			"15"
-		"fgcolor"		"200 80 60 255"
+		"fgcolor"		"TanDark"
 		"mouseinputenabled" "0"
 	}
 
@@ -347,23 +342,6 @@
 		}
 	}
 
-	"PrevPageButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"PrevPageButton"
-		"xpos"			"c-288"
-		"ypos"			"32"
-		"zpos"			"2"
-		"wide"			"20"
-		"tall"			"20"
-		"labelText"		"<"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"Command"		"prevpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
 	"PrevPageButton2"
 	{
 		"ControlName"	"Button"
@@ -372,38 +350,6 @@
 		"tall"			"0"
 		"labelText"		"&A"
 		"Command"		"prevpage"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"CurPageLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%backpackpage%"
-		"textAlignment"	"center"
-		"xpos"			"c-263"
-		"ypos"			"32"
-		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"20"
-		"fgcolor_override" "200 80 60 255"
-	}
-
-	"NextPageButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"NextPageButton"
-		"xpos"			"c-218"
-		"ypos"			"32"
-		"zpos"			"2"
-		"wide"			"20"
-		"tall"			"20"
-		"labelText"		">"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"Command"		"nextpage"
-		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 

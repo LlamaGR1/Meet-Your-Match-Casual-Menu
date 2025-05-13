@@ -174,17 +174,17 @@
 
 		"model"
 		{
-			"force_pos"	"1"
-			"angles_x" "0"
-			"angles_y" "170"
-			"angles_z" "0"
-			"origin_x" "190"
-			"origin_y" "0"
-			"origin_z" "-40"
+			"force_pos"		"1"
+			"angles_x"		"0"
+			"angles_y"		"170"
+			"angles_z"		"0"
+			"origin_x"		"190"
+			"origin_y"		"0"
+			"origin_z"		"-40"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight" "1"
+			"spotlight"		"1"
 
 			"modelname"		""
 		}
@@ -363,7 +363,7 @@
 
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"235 226 202 255"
-		"image_selectedcolor" "235 227 203 255"
+		"image_selectedcolor" "235 226 202 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -393,6 +393,7 @@
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

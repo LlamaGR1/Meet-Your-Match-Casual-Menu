@@ -79,7 +79,6 @@
 		"zpos"			"-200"
 		"wide"			"o1.6"
 		"tall"			"f0"
-		"proportionaltoparent"	"1"
 		"scaleImage"	"1"
 		"image"			""
 
@@ -99,34 +98,42 @@
 		{
 			"image"		"../console/title_team_halloween2011_widescreen"
 		}
+
 		if_halloween_1
 		{
 			"image"		"../console/title_team_halloween2012_widescreen"
 		}
+
 		if_halloween_2
 		{
 			"image"		"../console/title_team_halloween2013_widescreen"
 		}
+
 		if_halloween_3
 		{
 			"image"		"../console/title_team_halloween2014_widescreen"
 		}
+
 		if_halloween_4
 		{	
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
+
 		if_halloween_5
 		{	
 			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
+
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
+
 		if_christmas_0
 		{
 			"image"		"../console/background_xmas2020_widescreen"
 		}
+
 		if_christmas_1
 		{
 			"image"		"../console/background_xmas2023_widescreen"
@@ -159,7 +166,7 @@
 		"zpos"			"-71"
 		"wide"			"120"
 		"tall"			"30"
-		"fgcolor_override"	"235 227 203 255"
+		"fgcolor_override"	"235 226 202 255"
 	}
 
 	"TooltipPanel"
@@ -223,8 +230,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"16"
-			"ypos"			"0"
-			"zpos"			"3"
+			"zpos"			"1"
 			"wide"			"16"
 			"tall"			"16"
 			"drawcolor"		"210 125 33 255"
@@ -241,11 +247,10 @@
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
 			"xpos"			"16"
-			"ypos"			"0"
-			"zpos"			"4"
+			"zpos"			"2"
 			"wide"			"16"
 			"tall"			"16"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"235 226 202 255"
 			"mouseinputenabled"	"0"
 		}
 
@@ -281,7 +286,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"65"
 		"zpos"			"10"
 		"wide"			"210"
@@ -295,15 +300,14 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_CloseButton"
-			"xpos"			"186"
-			"ypos"			"8"
+			"xpos"			"190"
+			"ypos"			"6"
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
 			"labeltext"		""
 			"actionsignallevel"	"2"
 			"command"		"noti_hide"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -329,13 +333,12 @@
 			"fieldName"		"Notifications_TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%notititle%"
-			"textAlignment"	"north-west"
-			"xpos"			"12"
-			"ypos"			"8"
-			"wide"			"250"
-			"tall"			"20"
-			"fgcolor"		"LabelDark"
-			"wrap"			"1"
+			"textAlignment"	"west"
+			"xpos"			"9"
+			"ypos"			"6"
+			"wide"			"180"
+			"tall"			"15"
+			"fgcolor"		"Black"
 		}
 
 		"Notifications_Scroller"
@@ -421,9 +424,9 @@
 			"visible"	"0"
 		}
 
+		"resize_time"		"0"
 		"collapsed_height"	"32"
 		"expanded_height"	"263"
-		"resize_time"	"0"
 
 		"UtilitiesButton"
 		{
@@ -508,7 +511,7 @@
 			"zpos"			"4"
 			"wide"			"130"
 			"tall"			"20"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"235 226 202 255"
 		}
 
 		"UtilitiesImage"
@@ -536,7 +539,7 @@
 			"zpos"			"6"
 			"wide"			"240"
 			"tall"			"20"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"235 226 202 255"
 		}
 
 		"MapVoteLabelShadow"
@@ -570,7 +573,7 @@
 				"fieldName"		"SubButton"
 				"wide"			"20"
 				"tall"			"20"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
 				"actionsignallevel"	"3"
 				"sound_armed"		"UI/item_info_mouseover.wav"
@@ -602,7 +605,7 @@
 				"fieldName"		"SubButton"
 				"wide"			"20"
 				"tall"			"20"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
 				"actionsignallevel"	"3"
 				"sound_armed"		"UI/item_info_mouseover.wav"
@@ -634,7 +637,7 @@
 				"fieldName"		"SubButton"
 				"wide"			"20"
 				"tall"			"20"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
 				"actionsignallevel"	"3"
 				"sound_armed"		"UI/item_info_mouseover.wav"
@@ -818,7 +821,6 @@
 			"wide"			"1"
 			"tall"			"19"
 			"fillcolor"		"247 228 198 255"
-			"PaintBackgroundType"	"0"
 			"mouseinputenabled"	"0"
 		}
 
@@ -917,7 +919,7 @@
 			"zpos"			"5"
 			"wide"			"240"
 			"tall"			"15"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"235 226 202 255"
 		}
 
 		"VersionLabel"
@@ -925,13 +927,13 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"VersionLabel"
 			"font"			"HudFontSmallest"
-			"labelText"		"v2.69 - 2025/04/20"
+			"labelText"		"v2.75 - 2025/05/13"
 			"textAlignment"	"center"
 			"ypos"			"237"
 			"zpos"			"5"
 			"wide"			"240"
 			"tall"			"15"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"235 226 202 255"
 		}
 
 		"DrawingPanel"
@@ -1354,7 +1356,7 @@
 			"ypos"			"1"
 			"wide"			"120"
 			"tall"			"30"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"235 226 202 255"
 		}
 
 		"CharacterSetupButton"

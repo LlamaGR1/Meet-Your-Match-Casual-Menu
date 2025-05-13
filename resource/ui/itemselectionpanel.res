@@ -123,7 +123,7 @@
 		"ypos"			"2"
 		"wide"			"69"
 		"tall"			"15"
-		"fgcolor"		"200 80 60 255"
+		"fgcolor"		"TanDark"
 		"mouseinputenabled" "0"
 	}
 
@@ -250,7 +250,6 @@
 		"labelText"		"#Selection_ShowBackpack"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsetx"	"50"
 		"Command"		"show_backpack"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

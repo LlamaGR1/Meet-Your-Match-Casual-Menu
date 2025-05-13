@@ -15,9 +15,9 @@
 		"log_font_medium"	"HudFontSmallest"
 		"log_font_large"	"HudFontSmallest"
 
-		"chat_color_default"		"235 227 203 255"
+		"chat_color_default"		"235 226 202 255"
 		"chat_color_player_name"	"165 15 121 255"
-		"chat_color_chat_text"		"235 227 203 255"
+		"chat_color_chat_text"		"235 226 202 255"
 		"chat_color_party_event"	"Orange"
 
 		"ignorescheme"		"1"

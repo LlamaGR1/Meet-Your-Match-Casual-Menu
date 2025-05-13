@@ -13,7 +13,7 @@
 
 				"if_mini"
 				{
-					"origin_z"	"20"
+					"origin_z"	"-25"
 				}
 			}
 		}
